@@ -134,7 +134,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "I123123 Did A Thing",
+        name: "I Did A Thing",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'4",
