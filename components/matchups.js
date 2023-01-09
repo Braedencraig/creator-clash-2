@@ -53,7 +53,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "GoodG233223uyFitz",
+        name: "GoodGuyFitz",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'7",
@@ -68,7 +68,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "I D2323id A Thing",
+        name: "I Did A Thing",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'4",
@@ -86,7 +86,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Go4234odGuyFitz",
+        name: "GoodGuyFitz",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'7",
@@ -101,7 +101,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "I42343Did A Thing",
+        name: "I Did A Thing",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'4",
@@ -119,7 +119,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "GoodasdadGuyFitz",
+        name: "GoodGuyFitz",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'7",

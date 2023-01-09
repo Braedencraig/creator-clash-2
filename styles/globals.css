@@ -38,6 +38,11 @@ form {
   height: 178px;
   border: none;
   resize: none;
+  border-style: none;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .input-label:first-child {
@@ -54,7 +59,11 @@ form {
   height: 55px;
   padding: 8px;
   font-family: inherit;
+  border-style: none;
   border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .contact-button {
@@ -76,6 +85,7 @@ form {
   cursor: pointer;
   border: 1px solid black;
   transition: all 0.3s ease-in-out;
+  color: black;
 }
 
 .contact-button button:hover {
@@ -797,6 +807,7 @@ a {
   max-width: 142px;
   cursor: pointer;
   border: 0.5px solid #000000;
+  color: black;
   background: #ffffff;
   font-size: 18px;
   transition: all 0.3s ease-in-out;
@@ -1130,6 +1141,11 @@ a {
     max-width: 100%;
     margin-right: 0px;
     font-family: inherit;
+    border-style: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
 
   .form button {
