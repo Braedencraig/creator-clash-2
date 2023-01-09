@@ -38,6 +38,7 @@ export default function Home() {
           }
         }}
         className={`${styles.mainOther} ${isOpen && styles.overlay}`}
+        style={{ minHeight: isOpen ? "100vh" : "auto" }}
       >
         <Navigation
           open={open}

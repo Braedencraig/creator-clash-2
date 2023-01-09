@@ -955,6 +955,13 @@ a {
     display: none;
   }
 
+  .tag {
+    margin-right: 30px;
+  }
+
+  .matchups h2 {
+    margin-top: 20px;
+  }
   form {
     flex-direction: column;
   }
