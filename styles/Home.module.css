@@ -100,6 +100,10 @@
     margin-bottom: -20px;
   }
 
+  .center li {
+    margin-bottom: 15px;
+  }
+
   .mainOther {
     max-height: 200px;
     min-height: 200px;
