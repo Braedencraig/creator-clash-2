@@ -96,6 +96,10 @@
     max-height: 100vh;
   }
 
+  .center ul {
+    margin-bottom: -20px;
+  }
+
   .mainOther {
     max-height: 200px;
     min-height: 200px;
