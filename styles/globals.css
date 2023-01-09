@@ -17,8 +17,13 @@ form .contact-info {
   width: 50%;
 }
 
+.flex-form {
+  display: flex;
+}
+
 form {
   display: flex;
+  flex-direction: column;
 }
 
 .input-label {
@@ -953,6 +958,10 @@ a {
 @media (max-width: 1000px) {
   .fight-cards {
     display: none;
+  }
+
+  .flex-form {
+    flex-direction: column;
   }
 
   .tag {
