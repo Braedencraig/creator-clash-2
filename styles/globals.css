@@ -61,6 +61,8 @@ form {
   width: 100%;
   display: flex;
   justify-content: center;
+  color: black !important;
+  font-family: inherit;
 }
 
 .contact-button button {
