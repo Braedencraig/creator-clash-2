@@ -1,16 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Navigation from "../components/navigation";
-import Hero from "../components/hero";
 import { useState } from "react";
 import Link from "next/link";
 import Dropdown from "../components/dropdown";
-import Matchups from "../components/matchups";
-import Charity from "../components/charity";
 import Footer from "../components/footer";
+import Sponsorships from "../components/sponsorships";
+import Contact from "../components/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,14 +32,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div
         onClick={() => {
           if (open) {
             setOpenDropdown(false);
           }
         }}
-        className={`${styles.main} ${isOpen && styles.overlay}`}
+        className={`${styles.mainOther} ${isOpen && styles.overlay}`}
       >
         <Navigation
           open={open}
@@ -100,12 +97,9 @@ export default function Home() {
             </div>
           </div>
         )}
-        <Hero />
       </div>
-      <Matchups />
-      <div id="charity">
-        <Charity />
-      </div>
+      <Sponsorships />
+      <Contact />
       <Footer />
     </>
   );
