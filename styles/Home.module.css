@@ -69,6 +69,10 @@
   flex-direction: column;
 }
 
+.center ul li {
+  margin-bottom: 20px;
+}
+
 .center li {
   color: white;
   margin-bottom: 30px;
@@ -94,6 +98,7 @@
   .main {
     min-height: 100vh;
     max-height: 100vh;
+    background-position: center;
   }
 
   .center ul {

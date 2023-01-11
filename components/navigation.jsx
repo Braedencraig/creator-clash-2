@@ -3,15 +3,30 @@
 import Link from "next/link";
 import Hamburger from "hamburger-react";
 import Dropdown from "./dropdown";
+import { useEffect } from "react";
 
-export default function Navigation({ isOpen, setOpen, open, setOpenDropdown }) {
+export default function Navigation({
+  isOpen,
+  setOpen,
+  open,
+  setOpenDropdown,
+  launchModal,
+  setLaunchModal,
+}) {
   const handleMenuOne = () => {
     console.log("Go To Ticket Link 1");
   };
 
   const handleMenuTwo = () => {
     console.log("Go To Ticket Link 2");
+    setLaunchModal(true);
   };
+
+  useEffect(() => {
+    if (!isOpen) {
+      setLaunchModal(false);
+    }
+  }, [isOpen]);
 
   return (
     <div className="navigation">

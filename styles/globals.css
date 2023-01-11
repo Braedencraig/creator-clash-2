@@ -9,8 +9,232 @@ body {
   color: #fff;
 }
 
+.annoucers-wrapper h2 {
+  margin-bottom: 30px;
+}
+
+.announcers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.announcer p {
+  width: 100% !important;
+  padding-top: 0;
+  margin-top: 0 !important;
+  max-width: 100% !important;
+}
+
+.announcer {
+  padding: 24px;
+  background: #121313;
+}
+
+.announcer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.announcer-socials a {
+  border: 2px solid #ffffff;
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.announcer h3 {
+  margin-top: 40px;
+  font-size: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.warning {
+  background: white;
+  color: black;
+  padding: 70px;
+  position: relative;
+}
+
+.warning-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.warning h3 {
+  font-size: 50px;
+  color: #f22525;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.warning .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.warning-info .text {
+  display: flex;
+  flex-direction: column;
+  max-width: 879px;
+  margin-top: 20px;
+}
+
+.warning-info .buttons {
+  margin-top: 30px;
+}
+
+.warning-info .buttons button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin-right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+}
+
+.warning-info .buttons button.inverted {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.warning-info .buttons button.inverted:hover {
+  background: black;
+  color: white;
+}
+
+.warning-info .buttons button.inverted span {
+  filter: invert(0);
+}
+
+.warning-info .buttons button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.warning-info .buttons button.inverted:hover span {
+  filter: invert(1);
+}
+
+.warning-info .buttons button:hover span {
+  filter: invert(0);
+}
+
+.warning-info .buttons span {
+  margin-right: 12px;
+  position: relative;
+  top: 2px;
+}
+
+.warning-info .buttons button span {
+  filter: invert(1);
+}
+
+.warning-info p,
+.warning-info span {
+  font-size: 20px;
+}
+.warning-info span {
+  margin-top: 30px;
+}
+
+.warning img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
 .cheeky-mobile {
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.desktop-images {
+  max-width: 400px;
+}
+
+.revision-footer {
+  display: flex;
+  gap: 0px;
+  width: 100%;
+}
+
+.cheeky-mobile ul {
+  list-style: none;
+  width: 15%;
+}
+
+.cheeky-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.cheeky-socials .contact {
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cheeky-socials .contact:hover {
+  opacity: 0.7;
+}
+
+.cheeky-mobile .fight-card-matchup-socials a {
+  width: 34px;
+  height: 34px;
+  max-width: 34px;
+  max-height: 34px;
+  min-width: 34px;
+  min-height: 34px;
+}
+
+.cheeky-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cheeky-socials .fight-card-matchup-socials {
+  margin-top: 0;
+  gap: 18px;
+}
+
+.cheeky-socials .fight-card-matchup-socials a:hover {
+  opacity: 0.7;
+}
+
+.cheeky-socials .fight-card-matchup-socials a {
+  transition: all 0.3s ease-in-out;
+}
+
+.cheeky-mobile li {
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cheeky-mobile li:hover {
+  opacity: 0.7;
 }
 
 form .contact-info {
@@ -293,7 +517,8 @@ a {
   margin-bottom: 60px;
 }
 
-.hero .buttons {
+.hero .buttons,
+.warning-info .buttons {
   display: flex;
 }
 
@@ -570,9 +795,10 @@ a {
 }
 
 .desktop-images {
-  max-width: 400px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .desktop-footer-socials {
@@ -857,6 +1083,18 @@ a {
     display: none;
   }
 
+  .announcers {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .announcer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+  }
+
   .charity-logos {
     justify-content: center;
   }
@@ -973,6 +1211,19 @@ a {
     display: none;
   }
 
+  .desktop-images img {
+    margin-right: 0px;
+  }
+
+  .desktop-images {
+    max-width: 100%;
+  }
+
+  .revision-footer {
+    flex-direction: column;
+    gap: 0;
+  }
+
   .flex-form {
     flex-direction: column;
   }
@@ -1052,57 +1303,6 @@ a {
 
   .faq .accordion-content p {
     font-size: 14px;
-  }
-
-  .cheeky-mobile {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-  }
-
-  .cheeky-socials .contact {
-    margin-bottom: 20px;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cheeky-socials .contact:hover {
-    opacity: 0.7;
-  }
-  .cheeky-mobile ul {
-    list-style: none;
-  }
-
-  .cheeky-mobile .fight-card-matchup-socials a {
-    width: 34px;
-    height: 34px;
-    max-width: 34px;
-    max-height: 34px;
-    min-width: 34px;
-    min-height: 34px;
-  }
-
-  .cheeky-socials {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  .cheeky-socials .fight-card-matchup-socials {
-    margin-top: 0;
-  }
-
-  .cheeky-mobile li {
-    margin-bottom: 20px;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cheeky-mobile li:hover {
-    opacity: 0.7;
-  }
-
-  .desktop-bottom {
-    display: none;
   }
 
   .mobile-images {
@@ -1360,8 +1560,57 @@ a {
     margin-bottom: 12px;
   }
 
+  .announcers {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .announcer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .announcer img {
+    max-width: 300px;
+  }
+
+  .announcer p {
+    text-align: center;
+  }
+
+  .warning .close {
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .warning {
+    padding: 20px;
+  }
+
+  .warning h3 {
+    font-size: 30px;
+  }
+
+  .warning-info .buttons {
+    flex-direction: column;
+  }
+
+  .warning-info .buttons button {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .warning p,
+  .warning span {
+    font-size: 16px;
+  }
+
   .charity-logos img {
-    max-width: 150px;
+    max-width: 200px;
   }
 
   .faq-bg {
