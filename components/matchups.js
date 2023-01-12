@@ -10,11 +10,11 @@ export default function Matchups() {
     "flyweight",
     "featherweight",
     "middleweight",
-    "super featherweight",
-    "welterweight",
-    "light heavyweight",
-    "heavyweight",
-    "super heavyweight",
+    // "super featherweight",
+    // "welterweight",
+    // "light heavyweight",
+    // "heavyweight",
+    // "super heavyweight",
   ];
 
   const matchups = [
