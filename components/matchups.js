@@ -7,55 +7,61 @@ export default function Matchups() {
 
   const categories = [
     "all",
+    "flyweight",
+    "featherweight",
+    "middleweight",
     "super featherweight",
-    "heavyweight",
     "welterweight",
+    "light heavyweight",
+    "heavyweight",
+    "super heavyweight",
   ];
 
   const matchups = [
     {
       fighter1: {
-        name: "GoodGuyFitz",
+        name: "Dad",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
-        height: "6'7",
-        weight: "212 LB",
-        zodiac: "Virgo",
+        height: "6'0",
+        weight: "170 LB",
+        zodiac: "Aquarius",
         img: "/assets/goodguyfitz.png",
-        class: "welterweight",
+        class: "middleweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@nathanbarnatt",
+          insta: "https://www.instagram.com/NathanBarnatt/",
+          twitter:
+            "https://twitter.com/NathanBarnatt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
       },
       fighter2: {
-        name: "I Did A Thing",
+        name: "AB",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
-        height: "6'4",
-        weight: "210 LB",
-        zodiac: "Leo",
+        height: "6'0",
+        weight: "170 LB",
+        zodiac: "Pisces",
         img: "/assets/ididathing.png",
-        class: "welterweight",
+        class: "middleweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@_starkilla",
+          insta: "https://www.instagram.com/_starkilla/?hl=en",
+          twitter: "https://twitter.com/_Starkilla",
         },
       },
-      class: "welterweight",
+      class: "middleweight",
     },
     {
       fighter1: {
-        name: "GoodGuyFitz",
+        name: "MacDoogle",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'7",
         weight: "212 LB",
         zodiac: "Virgo",
         img: "/assets/goodguyfitz.png",
-        class: "super featherweight",
+        class: "featherweight",
         socials: {
           tiktok: "https://www.tiktok.com",
           insta: "https://www.instagram.com",
@@ -63,87 +69,347 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "I Did A Thing",
+        name: "Jack Manifold",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
-        height: "6'4",
-        weight: "210 LB",
+        height: "5'3",
+        weight: "130 LB",
         zodiac: "Leo",
         img: "/assets/ididathing.png",
-        class: "super featherweight",
+        class: "featherweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@jackmanifoldtv?lang=en",
+          insta: "https://www.instagram.com/JackManifoldTV/",
+          twitter: "https://twitter.com/JackManifoldTV",
         },
       },
-      class: "super featherweight",
+      class: "featherweight",
     },
     {
       fighter1: {
-        name: "GoodGuyFitz",
+        name: "Myth",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
-        height: "6'7",
-        weight: "212 LB",
-        zodiac: "Virgo",
+        height: "5'11",
+        weight: "185 LB",
+        zodiac: "Gemini",
         img: "/assets/goodguyfitz.png",
-        class: "heavyweight",
+        class: "light heavyweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@myth",
+          insta: "https://www.instagram.com/mythig_/?hl=en",
+          twitter: "https://twitter.com/myth_",
         },
       },
       fighter2: {
-        name: "I Did A Thing",
+        name: "Hundar",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
-        height: "6'4",
-        weight: "210 LB",
+        height: "5'11",
+        weight: "185 LB",
+        zodiac: "Cancer",
+        img: "/assets/ididathing.png",
+        class: "light heavyweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@muscleparty",
+          insta: "https://www.instagram.com/breadhungry/?hl=en",
+          twitter: "https://twitter.com/Hundar",
+        },
+      },
+      class: "light heavyweight",
+    },
+    {
+      fighter1: {
+        name: "Alanah Pearce",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'9",
+        weight: "165 LB",
+        zodiac: "Virgo",
+        img: "/assets/goodguyfitz.png",
+        class: "middleweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@charalanahzard?lang=en",
+          insta: "https://www.instagram.com/charalanahzard/",
+          twitter: "https://twitter.com/charalanahzard",
+        },
+      },
+      fighter2: {
+        name: "RIPMika",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "5'9",
+        weight: "165 LB",
+        zodiac: "Virgo",
+        img: "/assets/ididathing.png",
+        class: "middleweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@ripmika?lang=en",
+          insta: "https://www.instagram.com/ripmika/",
+          twitter:
+            "https://twitter.com/RIPmika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        },
+      },
+      class: "middleweight",
+    },
+    //
+    {
+      fighter1: {
+        name: "Ididathing",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "6'3",
+        weight: "200 LB+",
         zodiac: "Leo",
+        img: "/assets/goodguyfitz.png",
+        class: "heavyweight",
+        socials: {
+          twitter: "https://twitter.com/ididathing1",
+        },
+      },
+      fighter2: {
+        name: "Fitz",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "6'3",
+        weight: "200 LB+",
+        zodiac: "Virgo",
         img: "/assets/ididathing.png",
         class: "heavyweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@fitz?lang=en",
+          insta: "https://www.instagram.com/goodguyfitz/",
+          twitter: "https://twitter.com/GoodGuyFitz",
         },
       },
       class: "heavyweight",
     },
     {
       fighter1: {
-        name: "GoodGuyFitz",
+        name: "Arin Hanson",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
-        height: "6'7",
-        weight: "212 LB",
-        zodiac: "Virgo",
+        height: "6'2",
+        weight: "195 LB",
+        zodiac: "Capricorn",
         img: "/assets/goodguyfitz.png",
-        class: "welterweight",
+        class: "heavyweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@gamegrumps",
+          insta: "https://www.instagram.com/gamegrumps/",
+          twitter:
+            "https://twitter.com/egoraptor?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
       },
       fighter2: {
-        name: "I Did A Thing",
+        name: "Jarvis Johnson",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
-        height: "6'4",
-        weight: "210 LB",
-        zodiac: "Leo",
+        height: "6'1",
+        weight: "195 LB",
+        zodiac: "Taurus",
         img: "/assets/ididathing.png",
-        class: "welterweight",
+        class: "heavyweight",
         socials: {
-          tiktok: "https://www.tiktok.com",
-          insta: "https://www.instagram.com",
-          twitter: "https://twitter.com",
+          tiktok: "https://www.tiktok.com/@jarv.s",
+          insta: "https://www.instagram.com/jarvis/",
+          twitter: "https://twitter.com/jarvis",
         },
       },
-      class: "welterweight",
+      class: "heavyweight",
+    },
+    {
+      fighter1: {
+        name: "idubbbz",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "6'1",
+        weight: "168 LB",
+        zodiac: "Leo",
+        img: "/assets/goodguyfitz.png",
+        class: "light heavyweight",
+        socials: {
+          insta: "https://www.instagram.com/idubbbz/",
+          twitter: "https://twitter.com/Idubbbz",
+        },
+      },
+      fighter2: {
+        name: "Alex Wasabi",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "5'11",
+        weight: "168 LB",
+        zodiac: "Aries",
+        img: "/assets/ididathing.png",
+        class: "light heavyweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@alexwassabi?lang=en",
+          insta: "https://www.instagram.com/alexwassabi/?hl=en",
+          twitter: "https://twitter.com/AlexWassabi",
+        },
+      },
+      class: "light heavyweight",
+    },
+    {
+      fighter1: {
+        name: "CrankGamePlays",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'8",
+        weight: "155 LB",
+        zodiac: "Scorpio",
+        img: "/assets/goodguyfitz.png",
+        class: "middleweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@crankgameplays?lang=en",
+          insta: "https://www.instagram.com/crankgameplays/?hl=en",
+          twitter: "https://twitter.com/CrankGameplays",
+        },
+      },
+      fighter2: {
+        name: "Leonhart",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "5'10",
+        weight: "155 LB",
+        zodiac: "Aquarius",
+        img: "/assets/ididathing.png",
+        class: "middleweight",
+        socials: {
+          insta: "https://www.instagram.com/leonhart/",
+          twitter: "https://twitter.com/LeonhartYT",
+        },
+      },
+      class: "middleweight",
+    },
+    {
+      fighter1: {
+        name: "YodelingHaley",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'8",
+        weight: "140 LB",
+        zodiac: "Libra",
+        img: "/assets/goodguyfitz.png",
+        class: "lightweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@yodelinghaley?lang=en",
+          insta: "https://www.instagram.com/yodelinghaley/?hl=en",
+        },
+      },
+      fighter2: {
+        name: "Marisha Ray Huber",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "5'6",
+        weight: "140 LB",
+        zodiac: "Taurus",
+        img: "/assets/ididathing.png",
+        class: "lightweight",
+        socials: {
+          insta: "https://www.instagram.com/marisha_ray/?hl=en",
+          twitter:
+            "https://twitter.com/Marisha_Ray?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        },
+      },
+      class: "lightweight",
+    },
+    {
+      fighter1: {
+        name: "Jaelalaray",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'2",
+        weight: "115 LB",
+        zodiac: "Aquarius",
+        img: "/assets/goodguyfitz.png",
+        class: "flyweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@jaelaray",
+          insta: "https://www.instagram.com/jaelaray/?hl=en",
+          twitter: "https://mobile.twitter.com/jaelalaray?lang=en",
+        },
+      },
+      fighter2: {
+        name: "Abelina Sabrina",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "5'2",
+        weight: "115 LB",
+        zodiac: "Pisces",
+        img: "/assets/ididathing.png",
+        class: "flyweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@abelinasabrina",
+          insta: "https://www.instagram.com/abelinasabrina/",
+          twitter: "https://twitter.com/abelinasabrina",
+        },
+      },
+      class: "flyweight",
+    },
+    {
+      fighter1: {
+        name: "Froggy Fresh",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'2",
+        weight: "130 LB",
+        zodiac: "Capricorn",
+        img: "/assets/goodguyfitz.png",
+        class: "featherweight",
+        socials: {
+          insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
+          twitter: "https://twitter.com/iAmFroggyFresh",
+        },
+      },
+      fighter2: {
+        name: "Chris Ray Gun",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "5'4",
+        weight: "130 LB",
+        zodiac: "Sagittarius",
+        img: "/assets/ididathing.png",
+        class: "featherweight",
+        socials: {
+          twitter: "https://twitter.com/ChrisRGun",
+          tiktok: "https://www.tiktok.com/@chrisraygun?lang=en",
+        },
+      },
+      class: "featherweight",
+    },
+    {
+      fighter1: {
+        name: "John Morrison",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "6'0",
+        weight: "200 LB+",
+        zodiac: "Virgo",
+        img: "/assets/goodguyfitz.png",
+        class: "super heavyweight",
+        socials: {
+          insta: "http://instagram.com/johnhennigan",
+          twitter:
+            "https://twitter.com/TheRealMorrison?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        },
+      },
+      fighter2: {
+        name: "Harley Morenstein",
+        bio: "YouTuber, Handyman, Communist",
+        record: "1 - 0",
+        height: "6'7",
+        weight: "200 LB+",
+        zodiac: "Virgo",
+        img: "/assets/ididathing.png",
+        class: "super heavyweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@harleyplays",
+          insta: "http://instagram.com/harleyplays",
+          twitter: "https://twitter.com/HarleyPlays",
+        },
+      },
+      class: "super heavyweight",
     },
   ];
 
@@ -206,27 +472,33 @@ export default function Matchups() {
                       </div>
                     </Accordion>
                     <div className="fight-card-matchup-socials">
-                      <a
-                        href={matchup.fighter1.socials.tiktok}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/tiktok.png" alt="TikTok" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.insta}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/insta.png" alt="Instagram" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.twitter}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/twitter.png" alt="Twitter" />
-                      </a>
+                      {matchup.fighter1.socials.tiktok && (
+                        <a
+                          href={matchup.fighter1.socials.tiktok}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/tiktok.png" alt="TikTok" />
+                        </a>
+                      )}
+                      {matchup.fighter1.socials.insta && (
+                        <a
+                          href={matchup.fighter1.socials.insta}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/insta.png" alt="Instagram" />
+                        </a>
+                      )}
+                      {matchup.fighter1.socials.twitter && (
+                        <a
+                          href={matchup.fighter1.socials.twitter}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/twitter.png" alt="Twitter" />
+                        </a>
+                      )}
                     </div>
                   </div>
                   <div className="mobile-vs">
@@ -247,27 +519,33 @@ export default function Matchups() {
                       </div>
                     </Accordion>
                     <div className="fight-card-matchup-socials">
-                      <a
-                        href={matchup.fighter1.socials.tiktok}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/tiktok.png" alt="TikTok" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.insta}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/insta.png" alt="Instagram" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.twitter}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/twitter.png" alt="Twitter" />
-                      </a>
+                      {matchup.fighter2.socials.tiktok && (
+                        <a
+                          href={matchup.fighter2.socials.tiktok}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/tiktok.png" alt="TikTok" />
+                        </a>
+                      )}
+                      {matchup.fighter2.socials.insta && (
+                        <a
+                          href={matchup.fighter2.socials.insta}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/insta.png" alt="Instagram" />
+                        </a>
+                      )}
+                      {matchup.fighter2.socials.twitter && (
+                        <a
+                          href={matchup.fighter2.socials.twitter}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/twitter.png" alt="Twitter" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -298,27 +576,33 @@ export default function Matchups() {
                       </div>
                     </Accordion>
                     <div className="fight-card-matchup-socials">
-                      <a
-                        href={matchup.fighter1.socials.tiktok}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/tiktok.png" alt="TikTok" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.insta}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/insta.png" alt="Instagram" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.twitter}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/twitter.png" alt="Twitter" />
-                      </a>
+                      {matchup.fighter1.socials.tiktok && (
+                        <a
+                          href={matchup.fighter1.socials.tiktok}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/tiktok.png" alt="TikTok" />
+                        </a>
+                      )}
+                      {matchup.fighter1.socials.insta && (
+                        <a
+                          href={matchup.fighter1.socials.insta}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/insta.png" alt="Instagram" />
+                        </a>
+                      )}
+                      {matchup.fighter1.socials.twitter && (
+                        <a
+                          href={matchup.fighter1.socials.twitter}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/twitter.png" alt="Twitter" />
+                        </a>
+                      )}
                     </div>
                   </div>
                   <div className="mobile-vs">
@@ -339,27 +623,33 @@ export default function Matchups() {
                       </div>
                     </Accordion>
                     <div className="fight-card-matchup-socials">
-                      <a
-                        href={matchup.fighter1.socials.tiktok}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/tiktok.png" alt="TikTok" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.insta}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/insta.png" alt="Instagram" />
-                      </a>
-                      <a
-                        href={matchup.fighter1.socials.twitter}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="/assets/twitter.png" alt="Twitter" />
-                      </a>
+                      {matchup.fighter2.socials.tiktok && (
+                        <a
+                          href={matchup.fighter2.socials.tiktok}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/tiktok.png" alt="TikTok" />
+                        </a>
+                      )}
+                      {matchup.fighter2.socials.insta && (
+                        <a
+                          href={matchup.fighter2.socials.insta}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/insta.png" alt="Instagram" />
+                        </a>
+                      )}
+                      {matchup.fighter2.socials.twitter && (
+                        <a
+                          href={matchup.fighter2.socials.twitter}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img src="/assets/twitter.png" alt="Twitter" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
