@@ -1,16 +1,11 @@
 import React from "react";
-import { VT323 } from "@next/font/google";
 import Accordion from "./accordion";
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 export default function Faq() {
   return (
     <div className="faq-bg">
       <div className="faq">
-        <h2 className={robo.className}>Frequently Asked Questions</h2>
+        <h2>Frequently Asked Questions</h2>
         <Accordion isFaq title="How will I get my VIP information?">
           <p>
             VIP tickets are non-transferable at this time, unless the person you
@@ -172,7 +167,7 @@ export default function Faq() {
             ​to explore your options.
           </p>
         </Accordion>
-        <h2 className={`${robo.className} covid`}>COVID</h2>
+        <h2 className={`covid`}>COVID</h2>
         <Accordion isFaq title="Lorem Ipsum">
           <p>
             asdjklsadjklsadljksdajkladsjkl asdljk asd jlkdas jklsdajlk sadl

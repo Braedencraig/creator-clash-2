@@ -1,11 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import { VT323 } from "@next/font/google";
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 export default function Footer() {
   return (

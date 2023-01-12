@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Navigation from "../components/navigation";
 import { useState } from "react";
@@ -8,13 +7,6 @@ import Link from "next/link";
 import Dropdown from "../components/dropdown";
 import Footer from "../components/footer";
 import Faq from "../components/faq";
-import { VT323 } from "@next/font/google";
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -139,7 +131,7 @@ export default function Home() {
         )}
         {launchModal && (
           <div className={styles.overlay}>
-            <div className={styles.overlayContent}>
+            <div className={`${styles.overlayContent} ${styles.modalOverlay}`}>
               <div className={styles.center}>
                 <div className="warning">
                   <img
@@ -152,10 +144,8 @@ export default function Home() {
                     alt="Close modal"
                   />
                   <div className="warning-info">
-                    <h3 className={robo.className}>Heads Up!</h3>
-                    <h3 className={robo.className}>
-                      This is not an event ticket
-                    </h3>
+                    <h3>Heads Up!</h3>
+                    <h3>This is not an event ticket</h3>
                     <div className="text">
                       <p className="bold">
                         A PPV ticket is for the livestream only.

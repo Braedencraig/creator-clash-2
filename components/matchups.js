@@ -1,11 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
-import { VT323 } from "@next/font/google";
 import Accordion from "./accordion";
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 export default function Matchups() {
   const [active, isActive] = useState("all");
@@ -154,7 +149,7 @@ export default function Matchups() {
 
   return (
     <div className="matchups">
-      <h2 className={robo.className}>Player Matchups</h2>
+      <h2>Player Matchups</h2>
       <p className="matchups-info">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -192,7 +187,7 @@ export default function Matchups() {
                 <div className="fight-card-mobile-images fight-card-matchup-fighter-info">
                   <div className="not-reverse">
                     <img src={matchup.fighter1.img} alt="Fighter" />
-                    <h3 className={robo.className}>{matchup.fighter1.name}</h3>
+                    <h3>{matchup.fighter1.name}</h3>
                     <p>{matchup.fighter1.bio}</p>
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
@@ -235,13 +230,11 @@ export default function Matchups() {
                     </div>
                   </div>
                   <div className="mobile-vs">
-                    <span className={robo.className}>VS</span>
+                    <span>VS</span>
                   </div>
                   <div className="reverse">
                     <img src={matchup.fighter2.img} alt="Fighter" />
-                    <h3 className={`${robo.className} reverse-h3`}>
-                      {matchup.fighter2.name}
-                    </h3>
+                    <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
                     <p>{matchup.fighter2.bio}</p>
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
@@ -286,7 +279,7 @@ export default function Matchups() {
                 <div className="fight-card-mobile-images fight-card-matchup-fighter-info">
                   <div className="not-reverse">
                     <img src={matchup.fighter1.img} alt="Fighter" />
-                    <h3 className={robo.className}>{matchup.fighter1.name}</h3>
+                    <h3>{matchup.fighter1.name}</h3>
                     <p>{matchup.fighter1.bio}</p>
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
@@ -329,13 +322,11 @@ export default function Matchups() {
                     </div>
                   </div>
                   <div className="mobile-vs">
-                    <span className={robo.className}>VS</span>
+                    <span>VS</span>
                   </div>
                   <div className="reverse">
                     <img src={matchup.fighter2.img} alt="Fighter" />
-                    <h3 className={`${robo.className} reverse-h3`}>
-                      {matchup.fighter2.name}
-                    </h3>
+                    <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
                     <p>{matchup.fighter2.bio}</p>
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
@@ -412,11 +403,9 @@ export default function Matchups() {
                 </div>
                 <div className="middle">
                   <div className="fight-card-matchup-fighter-info">
-                    <h3 className={robo.className}>{matchup.fighter1.name}</h3>
-                    <span className={robo.className}>VS</span>
-                    <h3 className={`${robo.className} reverse-h3`}>
-                      {matchup.fighter2.name}
-                    </h3>
+                    <h3>{matchup.fighter1.name}</h3>
+                    <span>VS</span>
+                    <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
                   </div>
                   <div className="fight-card-matchup-fighter-bio">
                     <p>{matchup.fighter1.bio}</p>
@@ -508,11 +497,9 @@ export default function Matchups() {
                 </div>
                 <div className="middle">
                   <div className="fight-card-matchup-fighter-info">
-                    <h3 className={robo.className}>{matchup.fighter1.name}</h3>
-                    <span className={robo.className}>VS</span>
-                    <h3 className={`${robo.className} reverse-h3`}>
-                      {matchup.fighter2.name}
-                    </h3>
+                    <h3>{matchup.fighter1.name}</h3>
+                    <span>VS</span>
+                    <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
                   </div>
                   <div className="fight-card-matchup-fighter-bio">
                     <p>{matchup.fighter1.bio}</p>

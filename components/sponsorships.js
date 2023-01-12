@@ -1,9 +1,4 @@
 import React from "react";
-import { VT323 } from "@next/font/google";
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 export default function Sponsorships() {
   const sponsorshipTypes = [
@@ -46,7 +41,7 @@ export default function Sponsorships() {
   return (
     <div className="sponsorships-bg">
       <div className="sponsorships">
-        <h2 className={robo.className}>Sponsorship Opportunities</h2>
+        <h2>Sponsorship Opportunities</h2>
         <p>
           10 Detik Membuat Pertandingan, 10 Menit Bertarung, Lorong, Hutan,
           Menghancurkan Tower, Pertarungan Tim, Semua Kesenangan It.
@@ -54,7 +49,7 @@ export default function Sponsorships() {
         {sponsorshipTypes.map((type) => {
           return (
             <div key={type.title} className="sponsorships-border">
-              <h4 className={robo.className}>{type.title}</h4>
+              <h4>{type.title}</h4>
               <div className="sponsorships-info">
                 {type.media && (
                   <div className="media">

@@ -1,10 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { VT323 } from "@next/font/google";
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 export default function Charity() {
   const charities = [
@@ -21,7 +16,7 @@ export default function Charity() {
   return (
     <div className="charity">
       <div className="charity-info">
-        <h3 className={robo.className}>Charity Partners</h3>
+        <h3>Charity Partners</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import { VT323 } from "@next/font/google";
 import { useForm } from "react-hook-form";
-
-const robo = VT323({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
 export default function Contact() {
   const [success, setSuccess] = useState(false);
@@ -30,13 +24,13 @@ export default function Contact() {
     <div className="contact-form">
       <div className="contact-form-wrapper">
         {success && (
-          <h3 className={robo.className} style={{ textAlign: "center" }}>
+          <h3 style={{ textAlign: "center" }}>
             Thank you for your submission!
           </h3>
         )}
         {!success && (
           <>
-            <h3 className={robo.className}>Contact</h3>
+            <h3>Contact</h3>
             <form onSubmit={handleSubmit(onSubmit)} name="google-sheet">
               <div className="flex-form">
                 <div className="contact-info">

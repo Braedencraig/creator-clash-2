@@ -118,4 +118,8 @@
     min-height: 200px;
     background-position: center;
   }
+
+  .modalOverlay {
+    padding: 2rem !important;
+  }
 }
