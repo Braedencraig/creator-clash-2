@@ -130,6 +130,19 @@ export default function Home() {
                     ]}
                   />
                 </div>
+                <div className="mobile-socials">
+                  <div className="mobile-socials-container">
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img src="/assets/tiktok.png" alt="TikTok" />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img src="/assets/insta.png" alt="Instagram" />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img src="/assets/twitter.png" alt="Twitter" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -164,18 +177,6 @@ export default function Home() {
                       </span>
                     </div>
                     <div className="buttons">
-                      <button
-                        onClick={() => setLaunchModal(false)}
-                        className="inverted"
-                      >
-                        <span>
-                          <img
-                            src="/assets/cartblack.png"
-                            alt="shopping cart"
-                          />
-                        </span>
-                        PPV Tickets
-                      </button>
                       <button onClick={() => setLaunchModal(false)}>
                         <span>
                           <img
@@ -183,8 +184,9 @@ export default function Home() {
                             alt="shopping cart"
                           />
                         </span>
-                        Event Tickets
+                        PPV Ticket
                       </button>
+                      <a href="">Actually, I want an event ticket</a>
                     </div>
                   </div>
                 </div>

@@ -1,34 +1,85 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 
 export default function Footer() {
+  const [success, setSuccess] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const scriptUrl = process.env.NEXT_PUBLIC_GOOGLE;
+
+  const onSubmit = (data) => {
+    if (data) {
+      const form = document.forms["google-sheet"];
+      fetch(scriptUrl, { method: "POST", body: new FormData(form) })
+        .then((response) => setSuccess(true))
+        .catch((error) => console.error("Error!", error.message));
+    }
+  };
+
   return (
     <div className="footer">
       <div className="signup">
-        <div className="cheeky-mobile">
-          <div className="revision-footer">
-            <ul>
-              <li>
-                <Link href="/#charity">Charity</Link>
-              </li>
-              <li>
-                <Link href="/faq">FAQ&apos;s</Link>
-              </li>
-              <li>
-                <Link href="/sponsorships">Sponsorships</Link>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  Merch
-                </a>
-              </li>
-              <li>
-                <a href="mailto:creatorclash@realgoodtouring.com">Contact</a>
-              </li>
-            </ul>
+        {success && (
+          <h3 style={{ textAlign: "center" }}>
+            Thank you for your submission!
+          </h3>
+        )}
+        {!success && (
+          <>
+            <h3>Get in touch.</h3>
+            <form onSubmit={handleSubmit(onSubmit)} name="google-sheet">
+              <div className="flex-form">
+                <div className="contact-info">
+                  <div className="input-label">
+                    <label htmlFor="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Name"
+                      required
+                      name="Name"
+                    />
+                  </div>
+                  <div className="input-label">
+                    <label htmlFor="email">Email address*</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Email Address"
+                      name="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="contact-info message-margin">
+                  <div className="input-label">
+                    <label htmlFor="message">Message*</label>
+                    <textarea
+                      name="Message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div className="contact-button">
+                <button>Submit message</button>
+              </div>
+            </form>
+          </>
+        )}
+        <div className="desktop-bottom">
+          <div className="desktop-images">
+            <img src="/assets/footer-rgt.png" alt="Real Good Touring" />
+            <img src="/assets/footer-logo.png" alt="Creator Clash 2" />
           </div>
           <div className="cheeky-socials">
             <div className="fight-card-matchup-socials">
@@ -44,11 +95,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="desktop-bottom">
-          <div className="desktop-images">
-            <img src="/assets/footer-rgt.png" alt="Real Good Touring" />
-            <img src="/assets/footer-logo.png" alt="Creator Clash 2" />
-          </div>
+        <div className="moment">
+          <p>Broadcast live on</p>
+          <img src="/assets/moment.png" alt="Moment" />
         </div>
       </div>
     </div>

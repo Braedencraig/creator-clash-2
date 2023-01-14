@@ -32,6 +32,23 @@
   min-height: 336px;
 }
 
+.mainOtherOther {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  /* min-height: 100vh; */
+  height: 100vh;
+  background: url("/assets/sponsorshipsbg.png");
+  background-size: cover;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  position: relative;
+  max-height: 900px;
+  min-height: 900px;
+}
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -92,10 +109,22 @@
     min-height: 600px;
     max-height: 600px;
   }
+
+  .mainOtherOther {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-position: center;
+  }
 }
 
 @media (max-width: 768px) {
   .main {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-position: center;
+  }
+
+  .mainOtherOther {
     min-height: 100vh;
     max-height: 100vh;
     background-position: center;

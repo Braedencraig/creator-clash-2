@@ -16,6 +16,30 @@ body {
   color: #fff;
 }
 
+.moment {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+.moment img {
+  margin-left: 10px;
+}
+
+.warning-info a {
+  font-size: 22px;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.warning-info .buttons {
+  align-items: center;
+}
+
+.warning-info a:hover {
+  opacity: 0.7;
+}
+
 .annoucers-wrapper h2 {
   margin-bottom: 30px;
   font-family: "pixeboy", sans-serif;
@@ -23,8 +47,28 @@ body {
 
 .announcers {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 70px;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 24px;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.announcer {
+  /* width: 24%; */
+  flex-grow: 1;
+  padding: 24px;
+  background: #121313;
+  display: flex;
+  flex-direction: column;
+}
+
+.opacity-none {
+  opacity: 0;
 }
 
 .announcer p {
@@ -38,12 +82,6 @@ body {
   height: auto;
   max-width: 100%;
   object-fit: cover;
-}
-
-.announcer {
-  width: 31%;
-  padding: 24px;
-  background: #121313;
 }
 
 .announcer-socials {
@@ -207,6 +245,46 @@ body {
   padding-bottom: 20px;
 }
 
+.signup form {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding-bottom: 60px;
+  border-bottom: 1px solid white;
+}
+.signup input {
+  max-width: 363px;
+  padding: 16px;
+}
+
+.signup .contact-info {
+  width: 33%;
+}
+
+.signup .contact-info.message-margin {
+  width: 66%;
+}
+
+.signup .contact-button button {
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+.signup .contact-button button:hover {
+  color: #f2cb00;
+  border: 1px solid #f2cb00;
+}
+
+.signup label {
+  margin-bottom: 10px;
+}
+
+.signup h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
 .cheeky-socials .contact {
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
@@ -276,7 +354,7 @@ form {
   padding: 8px;
   font-family: inherit;
   font-size: 16px;
-  height: 178px;
+  height: 167px;
   border: none;
   resize: none;
   border-style: none;
@@ -516,12 +594,57 @@ a {
   max-width: 1600px;
   position: relative;
   top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-sponsorships {
+  width: 100%;
+  max-width: 1600px;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero-sponsorships h1 {
+  font-family: "Pixeboy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.hero-sponsorships p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  width: 50%;
+  /* or 114% */
+
+  text-align: center;
+}
+
+.hero-sponsorships a {
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-sponsorships a:hover {
+  opacity: 0.7;
 }
 
 .hero h1 {
-  font-size: 75px;
+  font-size: 100px;
   line-height: 68px;
   max-width: 548px;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 60px;
   font-family: "pixeboy", sans-serif;
@@ -769,7 +892,7 @@ a {
 
 .fight-card-matchup-fighter-info .reverse-h3 {
   color: #f22525;
-  font-size: 45px;
+  font-size: 38px;
   margin-bottom: 8px;
   text-align: right;
 }
@@ -796,6 +919,26 @@ a {
   display: flex;
   justify-content: flex-end;
   text-align: right;
+}
+
+.mobile-socials-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.mobile-socials-container a {
+  border: 2px solid #ffffff;
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fight-card-matchup-socials a {
@@ -1104,6 +1247,30 @@ a {
 
 .mobile-images {
   display: none;
+}
+
+@media (max-width: 1300px) {
+  .signup form .flex-form {
+    flex-direction: column;
+  }
+
+  .signup .contact-info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .signup form input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .signup .contact-button button {
+    margin-top: 0;
+  }
+
+  .signup .contact-info.message-margin {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1580,6 +1747,39 @@ a {
     margin-bottom: 30px;
     padding: 20px;
   }
+
+  .desktop-bottom {
+    flex-direction: column;
+  }
+
+  .desktop-bottom .cheeky-socials {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .desktop-bottom .cheeky-socials .fight-card-matchup-socials {
+    gap: 40px;
+  }
+
+  .desktop-bottom .cheeky-socials .fight-card-matchup-socials a {
+    width: 34px;
+    height: 34px;
+    max-width: 34px;
+    max-height: 34px;
+    min-width: 34px;
+    min-height: 34px;
+  }
+
+  .moment {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1588,6 +1788,31 @@ a {
     max-width: 140px;
     padding: 0;
     margin-bottom: 12px;
+  }
+
+  .hero-sponsorships {
+    top: 33%;
+  }
+
+  .hero-sponsorships h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .hero-sponsorships p {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .fight-card-matchup-fighter-info h3 {
+    height: 44px;
+    font-size: 26px !important;
+  }
+
+  .warning-info a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
   }
 
   .announcers {

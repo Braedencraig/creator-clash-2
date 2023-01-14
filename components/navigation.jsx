@@ -40,6 +40,9 @@ export default function Navigation({
         <li>
           <Link href="/sponsorships">Sponsorships</Link>
         </li>
+        <li>
+          <a href="">Merch</a>
+        </li>
       </ul>
       <div className="logo">
         <Link href="/">
@@ -47,7 +50,19 @@ export default function Navigation({
         </Link>
       </div>
       <div className="navigation-tickets">
-        <a href="">Merch</a>
+        <div className="cheeky-socials">
+          <div className="fight-card-matchup-socials">
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="/assets/tiktok.png" alt="TikTok" />
+            </a>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="/assets/insta.png" alt="Instagram" />
+            </a>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="/assets/twitter.png" alt="Twitter" />
+            </a>
+          </div>
+        </div>
         <Dropdown
           open={open}
           setOpenDropdown={setOpenDropdown}

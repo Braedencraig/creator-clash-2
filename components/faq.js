@@ -167,20 +167,6 @@ export default function Faq() {
             ​to explore your options.
           </p>
         </Accordion>
-        <h2 className={`covid`}>COVID</h2>
-        <Accordion isFaq title="Lorem Ipsum">
-          <p>
-            asdjklsadjklsadljksdajkladsjkl asdljk asd jlkdas jklsdajlk sadl
-            jkads ljkdas ljkdas jlka
-          </p>
-          <p>
-            If you are a parent who purchased a ticket for your child, or you
-            bought the tickets as a gift and they are listed in your name and
-            not the recipient&apos;s, please email{" "}
-            <a href="mailto:vip@realgoodtouring.com">vip@realgoodtouring.com</a>{" "}
-            ​to explore your options.
-          </p>
-        </Accordion>
       </div>
     </div>
   );
