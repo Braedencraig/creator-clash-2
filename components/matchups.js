@@ -438,10 +438,10 @@ export default function Matchups() {
     <div className="matchups">
       <h2>Player Matchups</h2>
       <p className="matchups-info">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure.
+        commodo consequat. Duis aute irure. */}
       </p>
       <div className="filter-mobile">
         <img src="/assets/filter.png" alt="Filter icon" />

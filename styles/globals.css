@@ -69,6 +69,7 @@ body {
 
 .opacity-none {
   opacity: 0;
+  height: 0px;
 }
 
 .announcer p {
@@ -658,6 +659,7 @@ a {
 
 .hero .info {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .hero .buttons,
