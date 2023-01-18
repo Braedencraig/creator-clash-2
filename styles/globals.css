@@ -1048,6 +1048,7 @@ a {
 
 .faq .accordion-content a {
   font-weight: 700;
+  text-decoration: underline;
 }
 
 .faq .accordion-wrapper {
