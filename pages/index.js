@@ -18,7 +18,7 @@ export default function Home() {
   const [launchModal, setLaunchModal] = useState(false);
 
   const handleMenuOne = () => {
-    console.log("Go To Ticket Link 1");
+    window.open("https://www.ticketmaster.com/event/0D005E33DAC2E9EC");
   };
 
   const handleMenuTwo = () => {

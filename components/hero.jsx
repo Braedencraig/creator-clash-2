@@ -10,7 +10,11 @@ export default function Hero() {
         <h2>AMALIE ARENA // Tampa, FL</h2>
       </div>
       <div className="buttons">
-        <button>
+        <button
+          onClick={() => {
+            window.open("https://www.ticketmaster.com/event/0D005E33DAC2E9EC");
+          }}
+        >
           <span>
             <img src="/assets/cartblack.png" alt="shopping cart" />
           </span>

@@ -12,12 +12,20 @@ export default function Faq() {
             purchase on January 27, 2023 at 10:00am ET/7:00am PT.
           </p>
         </Accordion>
-        {/* <Accordion isFaq title="Where do I purchase event tickets to CC2?">
+        <Accordion isFaq title="Where do I purchase event tickets to CC2?">
           <p>
             Event tickets to attend Creator Clash 2 in Tampa, Florida may be
-            purchased here [[TICKETMASTER LINK HYPERLINKED]].
+            purchased{" "}
+            <a
+              href="https://www.ticketmaster.com/event/0D005E33DAC2E9EC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
           </p>
-        </Accordion> */}
+        </Accordion>
         <Accordion
           isFaq
           title="I’m having trouble purchasing event tickets on Ticketmaster - what do I do?"
@@ -75,8 +83,15 @@ export default function Faq() {
           </p>
           <p>
             Please note - pay-per-view tickets do not include admission to the
-            in-person event at Amalie Arena. Event tickets sold separately.
-            {/* [[TICKETMASTER LINK HYPERLINKED]] */}
+            in-person event at Amalie Arena.{" "}
+            <a
+              href="https://www.ticketmaster.com/event/0D005E33DAC2E9EC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Event tickets
+            </a>{" "}
+            sold separately.
           </p>
         </Accordion>
         <Accordion isFaq title="What does my PPV ticket purchase include?">
@@ -84,11 +99,18 @@ export default function Faq() {
             PPV tickets include access to view the official Creator Clash 2
             livestream hosted by Moment.
           </p>
-          {/* <p>
+          <p>
             Looking for tickets to attend Creator Clash 2 in Tampa? Purchase
-            event tickets for admission to the in-person event here
-            [[TICKETMASTER TICKET LINK HYPERLINKED]].
-          </p> */}
+            event tickets for admission to the in-person event{" "}
+            <a
+              href="https://www.ticketmaster.com/event/0D005E33DAC2E9EC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
+          </p>
         </Accordion>
         <Accordion
           isFaq

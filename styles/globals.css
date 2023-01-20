@@ -874,6 +874,7 @@ a {
 }
 
 .fight-card-matchup-fighter-info h3 {
+  line-height: 30px;
   color: #2f80ed;
   font-size: 38px;
   margin-bottom: 8px;
@@ -893,6 +894,7 @@ a {
 }
 
 .fight-card-matchup-fighter-info .reverse-h3 {
+  line-height: 30px;
   color: #f22525;
   font-size: 38px;
   margin-bottom: 8px;
