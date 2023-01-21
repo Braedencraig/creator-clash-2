@@ -260,6 +260,9 @@ body {
 .signup input {
   max-width: 363px;
   padding: 16px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .signup .contact-info {
@@ -1197,6 +1200,9 @@ a {
 
 .form input {
   max-width: 350px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   height: 48px;
   padding: 8px;
   color: black;
@@ -1271,6 +1277,9 @@ a {
   .signup form input {
     width: 100%;
     max-width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
 
   .signup .contact-button button {
@@ -1454,6 +1463,9 @@ a {
 
   .contact-form-wrapper input {
     max-width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
 
   .contact-form-wrapper {
@@ -1547,6 +1559,9 @@ a {
     margin-right: 0px;
     font-family: inherit;
     border-style: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
     border: none;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -1743,7 +1758,7 @@ a {
   }
 
   .tags :nth-child(3) {
-    min-width: 220px;
+    /* min-width: 220px; */
     text-align: center;
   }
 
