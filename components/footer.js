@@ -83,13 +83,25 @@ export default function Footer() {
           </div>
           <div className="cheeky-socials">
             <div className="fight-card-matchup-socials">
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.tiktok.com/@creatorclashofficial?lang=en"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="/assets/tiktok.png" alt="TikTok" />
               </a>
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/thecreatorclash/?hl=en"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="/assets/insta.png" alt="Instagram" />
               </a>
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/TheCreatorClash?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="/assets/twitter.png" alt="Twitter" />
               </a>
             </div>

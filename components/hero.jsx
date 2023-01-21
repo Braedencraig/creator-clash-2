@@ -20,7 +20,12 @@ export default function Hero() {
           </span>
           Event Tickets
         </button>
-        <button className="inverted">
+        <button
+          onClick={() => {
+            window.open("https://www.moment.co/creatorclash");
+          }}
+          className="inverted"
+        >
           <span>
             <img src="/assets/cartyellow.png" alt="shopping cart" />
           </span>

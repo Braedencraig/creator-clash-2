@@ -22,7 +22,6 @@ export default function Home() {
   };
 
   const handleMenuTwo = () => {
-    console.log("Go To Ticket Link 2adsds");
     setLaunchModal(true);
   };
 
@@ -177,7 +176,12 @@ export default function Home() {
                       </span>
                     </div>
                     <div className="buttons">
-                      <button onClick={() => setLaunchModal(false)}>
+                      <button
+                        onClick={() => {
+                          setLaunchModal(false);
+                          window.open("https://www.moment.co/creatorclash");
+                        }}
+                      >
                         <span>
                           <img
                             src="/assets/cartblack.png"
@@ -186,7 +190,9 @@ export default function Home() {
                         </span>
                         PPV Ticket
                       </button>
-                      <a href="">Actually, I want an event ticket</a>
+                      <a href="https://www.ticketmaster.com/event/0D005E33DAC2E9EC">
+                        Actually, I want an event ticket
+                      </a>
                     </div>
                   </div>
                 </div>

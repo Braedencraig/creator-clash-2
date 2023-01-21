@@ -17,7 +17,6 @@ export default function Home() {
   };
 
   const handleMenuTwo = () => {
-    console.log("Go To Ticket Link 2");
     setLaunchModal(true);
   };
 
@@ -171,7 +170,12 @@ export default function Home() {
                       </span>
                     </div>
                     <div className="buttons">
-                      <button onClick={() => setLaunchModal(false)}>
+                      <button
+                        onClick={() => {
+                          setLaunchModal(false);
+                          window.open("https://www.moment.co/creatorclash");
+                        }}
+                      >
                         <span>
                           <img
                             src="/assets/cartblack.png"
