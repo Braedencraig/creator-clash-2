@@ -82,16 +82,16 @@ export default function Home() {
             <div className={styles.overlayContent}>
               <div className={styles.center}>
                 <ul className={styles.overlayList}>
-                  <li>
+                  <li onClick={() => setOpen(false)}>
                     <Link href="/#charity">Charity</Link>
                   </li>
-                  <li>
+                  <li onClick={() => setOpen(false)}>
                     <Link href="/faq">FAQ</Link>
                   </li>
-                  <li>
+                  <li onClick={() => setOpen(false)}>
                     <Link href="/sponsorships">Sponsorships</Link>
                   </li>
-                  <li>
+                  <li onClick={() => setOpen(false)}>
                     <a href="">Merch</a>
                   </li>
                 </ul>
