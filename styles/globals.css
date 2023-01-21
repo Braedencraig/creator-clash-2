@@ -263,6 +263,7 @@ body {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  border: none;
 }
 
 .signup .contact-info {
@@ -384,6 +385,7 @@ form {
   max-width: 328px;
   font-size: 16px;
   height: 55px;
+  border: none;
   padding: 8px;
   font-family: inherit;
   border-style: none;
@@ -1205,6 +1207,7 @@ a {
   border-radius: 0;
   height: 48px;
   padding: 8px;
+  border: none;
   color: black;
   border: 0.5px solid #000000;
   margin-bottom: 20px;
@@ -1280,6 +1283,7 @@ a {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+    border: none;
   }
 
   .signup .contact-button button {
@@ -1557,6 +1561,7 @@ a {
   .form input {
     max-width: 100%;
     margin-right: 0px;
+    border: none;
     font-family: inherit;
     border-style: none;
     -webkit-border-radius: 0;
