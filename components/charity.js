@@ -3,15 +3,18 @@ import React from "react";
 
 export default function Charity() {
   const charities = [
-    { link: "https://www.google.ca", img: "charity1" },
-    { link: "https://www.google.ca", img: "charity2" },
-    { link: "https://www.google.ca", img: "charity3" },
-    { link: "https://www.google.ca", img: "charity4" },
-    { link: "https://www.google.ca", img: "charity5" },
-    { link: "https://www.google.ca", img: "charity6" },
-    { link: "https://www.google.ca", img: "charity7" },
-    { link: "https://www.google.ca", img: "charity8" },
-    { link: "https://www.google.ca", img: "charity9" },
+    {
+      link: "https://donate.nami.org/give/197406/#!/donation/checkout?utm_source=globalNav&utm_medium=website&utm_campaign=DonationTracking&c_src=P2PRGT23",
+      img: "charity1",
+    },
+    { link: "http://ablegamers.org/", img: "charity2" },
+    { link: "http://kidneyfund.org/", img: "charity3" },
+    { link: "http://nicklauschildrens.org/", img: "charity4" },
+    { link: "http://kidscancersf.org/", img: "charity5" },
+    { link: "http://curesarcoma.org/", img: "charity6" },
+    { link: "http://heart.org/", img: "charity7" },
+    { link: "http://critrole.com/", img: "charity8" },
+    { link: "http://longestday.org/", img: "charity9" },
   ];
   return (
     <div className="charity">

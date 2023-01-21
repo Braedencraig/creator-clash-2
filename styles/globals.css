@@ -72,6 +72,10 @@ body {
   height: 0px;
 }
 
+.opacity-none img {
+  display: none;
+}
+
 .announcer p {
   width: 100% !important;
   padding-top: 0;

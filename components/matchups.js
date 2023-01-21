@@ -22,7 +22,7 @@ export default function Matchups() {
         record: "1 - 0",
         height: "6'1",
         weight: "168 LB",
-        zodiac: "Leo",
+        zodiac: "Libra",
         img: "/assets/goodguyfitz.png",
         class: "light heavyweight",
         socials: {
@@ -473,12 +473,12 @@ export default function Matchups() {
                   <div className="not-reverse">
                     <img src={matchup.fighter1.img} alt="Fighter" />
                     <h3>{matchup.fighter1.name}</h3>
-                    <p>{matchup.fighter1.bio}</p>
+                    {/* <p>{matchup.fighter1.bio}</p> */}
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
-                        <p className="blue">
+                        {/* <p className="blue">
                           Record: {matchup.fighter1.record}
-                        </p>
+                        </p> */}
                         <p className="blue">
                           Height: {matchup.fighter1.height}
                         </p>
@@ -544,10 +544,10 @@ export default function Matchups() {
                   <div className="reverse">
                     <img src={matchup.fighter2.img} alt="Fighter" />
                     <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
-                    <p>{matchup.fighter2.bio}</p>
+                    {/* <p>{matchup.fighter2.bio}</p> */}
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
-                        <p className="red">Record: {matchup.fighter2.record}</p>
+                        {/* <p className="red">Record: {matchup.fighter2.record}</p> */}
                         <p className="red">Height: {matchup.fighter2.height}</p>
                         <p className="red">
                           Goal Weight: {matchup.fighter2.weight}
@@ -613,12 +613,12 @@ export default function Matchups() {
                   <div className="not-reverse">
                     <img src={matchup.fighter1.img} alt="Fighter" />
                     <h3>{matchup.fighter1.name}</h3>
-                    <p>{matchup.fighter1.bio}</p>
+                    {/* <p>{matchup.fighter1.bio}</p> */}
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
-                        <p className="blue">
+                        {/* <p className="blue">
                           Record: {matchup.fighter1.record}
-                        </p>
+                        </p> */}
                         <p className="blue">
                           Height: {matchup.fighter1.height}
                         </p>
@@ -684,10 +684,10 @@ export default function Matchups() {
                   <div className="reverse">
                     <img src={matchup.fighter2.img} alt="Fighter" />
                     <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
-                    <p>{matchup.fighter2.bio}</p>
+                    {/* <p>{matchup.fighter2.bio}</p> */}
                     <Accordion isFaq={false} title="View Stats">
                       <div className="stat">
-                        <p className="red">Record: {matchup.fighter2.record}</p>
+                        {/* <p className="red">Record: {matchup.fighter2.record}</p> */}
                         <p className="red">Height: {matchup.fighter2.height}</p>
                         <p className="red">
                           Goal Weight: {matchup.fighter2.weight}
@@ -812,16 +812,16 @@ export default function Matchups() {
                     <span>VS</span>
                     <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
                   </div>
-                  <div className="fight-card-matchup-fighter-bio">
+                  {/* <div className="fight-card-matchup-fighter-bio">
                     <p>{matchup.fighter1.bio}</p>
                     <p className={`reverse-p`}>{matchup.fighter2.bio}</p>
-                  </div>
+                  </div> */}
                   <div className="table">
-                    <div className="table-row">
+                    {/* <div className="table-row">
                       <p className="red">{matchup.fighter1.record}</p>
                       <p>Record</p>
                       <p className="blue">{matchup.fighter2.record}</p>
-                    </div>
+                    </div> */}
                     <div className="table-row">
                       <p className="red">{matchup.fighter1.height}</p>
                       <p>Height</p>
@@ -954,16 +954,16 @@ export default function Matchups() {
                     <span>VS</span>
                     <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
                   </div>
-                  <div className="fight-card-matchup-fighter-bio">
+                  {/* <div className="fight-card-matchup-fighter-bio">
                     <p>{matchup.fighter1.bio}</p>
                     <p className={`reverse-p`}>{matchup.fighter2.bio}</p>
-                  </div>
+                  </div> */}
                   <div className="table">
-                    <div className="table-row">
+                    {/* <div className="table-row">
                       <p className="red">{matchup.fighter1.record}</p>
                       <p>Record</p>
                       <p className="blue">{matchup.fighter2.record}</p>
-                    </div>
+                    </div> */}
                     <div className="table-row">
                       <p className="red">{matchup.fighter1.height}</p>
                       <p>Height</p>
