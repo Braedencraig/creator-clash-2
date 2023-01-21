@@ -56,21 +56,39 @@ export default function Navigation({
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/assets/tiktok.png" alt="TikTok" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/tiktok.png"
+                alt="TikTok"
+              />
             </a>
             <a
               href="https://www.instagram.com/thecreatorclash/?hl=en"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/assets/insta.png" alt="Instagram" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/insta.png"
+                alt="Instagram"
+              />
             </a>
             <a
               href="https://twitter.com/TheCreatorClash?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/assets/twitter.png" alt="Twitter" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/twitter.png"
+                alt="Twitter"
+              />
             </a>
           </div>
         </div>
@@ -81,7 +99,13 @@ export default function Navigation({
             <button>
               Tickets{" "}
               <span>
-                <img src="/assets/chevron.png" alt="navigation chevron" />
+                <img
+                  fetchpriority="low"
+                  loading="lazy"
+                  decoding="async"
+                  src="/assets/chevron.png"
+                  alt="navigation chevron"
+                />
               </span>
             </button>
           }

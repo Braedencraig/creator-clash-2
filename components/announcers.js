@@ -98,33 +98,69 @@ export default function Announcers() {
         {announcers.map((announcer) => {
           return (
             <div className="announcer" key={announcer.fullname}>
-              <img src={announcer.img} alt="Announcer" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src={announcer.img}
+                alt="Announcer"
+              />
               <h3>{announcer.fullName}</h3>
               <p>{announcer.bio}</p>
               <div className="announcer-socials">
                 {announcer.socials.tiktok && (
                   <a href={announcer.socials.tiktok}>
-                    <img src="/assets/tiktok.png" alt="TikTok" />
+                    <img
+                      fetchpriority="low"
+                      loading="lazy"
+                      decoding="async"
+                      src="/assets/tiktok.png"
+                      alt="TikTok"
+                    />
                   </a>
                 )}
                 {announcer.socials.youtube && (
                   <a href={announcer.socials.youtube}>
-                    <img src="/assets/youtube.png" alt="YouTube" />
+                    <img
+                      fetchpriority="low"
+                      loading="lazy"
+                      decoding="async"
+                      src="/assets/youtube.png"
+                      alt="YouTube"
+                    />
                   </a>
                 )}
                 {announcer.socials.insta && (
                   <a href={announcer.socials.insta}>
-                    <img src="/assets/insta.png" alt="Instagram" />
+                    <img
+                      fetchpriority="low"
+                      loading="lazy"
+                      decoding="async"
+                      src="/assets/insta.png"
+                      alt="Instagram"
+                    />
                   </a>
                 )}
                 {announcer.socials.twitter && (
                   <a href={announcer.socials.twitter}>
-                    <img src="/assets/twitter.png" alt="Twitter" />
+                    <img
+                      fetchpriority="low"
+                      loading="lazy"
+                      decoding="async"
+                      src="/assets/twitter.png"
+                      alt="Twitter"
+                    />
                   </a>
                 )}
                 {announcer.socials.twitch && (
                   <a href={announcer.socials.twitch}>
-                    <img src="/assets/twitch.png" alt="Twitch" />
+                    <img
+                      fetchpriority="low"
+                      loading="lazy"
+                      decoding="async"
+                      src="/assets/twitch.png"
+                      alt="Twitch"
+                    />
                   </a>
                 )}
               </div>
@@ -132,21 +168,51 @@ export default function Announcers() {
           );
         })}
         <div className="announcer opacity-none">
-          <img src={announcers[0].img} alt="Announcer" />
+          <img
+            fetchpriority="low"
+            loading="lazy"
+            decoding="async"
+            src={announcers[0].img}
+            alt="Announcer"
+          />
           <h3>{announcers[0].fullName}</h3>
           <p>{announcers[0].bio}</p>
           <div className="announcer-socials">
             <a href={announcers[0].socials.youtube}>
-              <img src="/assets/youtube.png" alt="YouTube" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/youtube.png"
+                alt="YouTube"
+              />
             </a>
             <a href={announcers[0].socials.insta}>
-              <img src="/assets/insta.png" alt="Instagram" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/insta.png"
+                alt="Instagram"
+              />
             </a>
             <a href={announcers[0].socials.twitter}>
-              <img src="/assets/twitter.png" alt="Twitter" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/twitter.png"
+                alt="Twitter"
+              />
             </a>
             <a href={announcers[0].socials.twitch}>
-              <img src="/assets/twitch.png" alt="Twitch" />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src="/assets/twitch.png"
+                alt="Twitch"
+              />
             </a>
           </div>
         </div>

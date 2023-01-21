@@ -109,6 +109,9 @@ export default function Home() {
                         Tickets{" "}
                         <span>
                           <img
+                            fetchpriority="low"
+                            loading="lazy"
+                            decoding="async"
                             src="/assets/chevron.png"
                             alt="navigation chevron"
                           />
@@ -132,13 +135,31 @@ export default function Home() {
                 <div className="mobile-socials">
                   <div className="mobile-socials-container">
                     <a href="" target="_blank" rel="noreferrer">
-                      <img src="/assets/tiktok.png" alt="TikTok" />
+                      <img
+                        fetchpriority="low"
+                        loading="lazy"
+                        decoding="async"
+                        src="/assets/tiktok.png"
+                        alt="TikTok"
+                      />
                     </a>
                     <a href="" target="_blank" rel="noreferrer">
-                      <img src="/assets/insta.png" alt="Instagram" />
+                      <img
+                        fetchpriority="low"
+                        loading="lazy"
+                        decoding="async"
+                        src="/assets/insta.png"
+                        alt="Instagram"
+                      />
                     </a>
                     <a href="" target="_blank" rel="noreferrer">
-                      <img src="/assets/twitter.png" alt="Twitter" />
+                      <img
+                        fetchpriority="low"
+                        loading="lazy"
+                        decoding="async"
+                        src="/assets/twitter.png"
+                        alt="Twitter"
+                      />
                     </a>
                   </div>
                 </div>
@@ -152,6 +173,9 @@ export default function Home() {
               <div className={styles.center}>
                 <div className="warning">
                   <img
+                    fetchpriority="low"
+                    loading="lazy"
+                    decoding="async"
                     onClick={() => {
                       setLaunchModal(false);
                       setOpen(false);
@@ -184,6 +208,9 @@ export default function Home() {
                       >
                         <span>
                           <img
+                            fetchpriority="low"
+                            loading="lazy"
+                            decoding="async"
                             src="/assets/cartblack.png"
                             alt="shopping cart"
                           />

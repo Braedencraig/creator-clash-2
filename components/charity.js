@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 
 export default function Charity() {
   const charities = [
@@ -35,7 +36,13 @@ export default function Charity() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={`/assets/${charity.img}.png`} alt={charity.img} />
+              <img
+                fetchpriority="low"
+                loading="lazy"
+                decoding="async"
+                src={`/assets/${charity.img}.png`}
+                alt={charity.img}
+              />
               <p>Donate Here</p>
             </a>
           );
