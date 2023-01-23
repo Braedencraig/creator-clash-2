@@ -1745,6 +1745,7 @@ a {
     justify-content: center;
     align-items: center;
     font-family: "pixeboy", sans-serif;
+    top: 25%;
   }
 
   .fight-card-matchup {
@@ -1830,6 +1831,10 @@ a {
     margin-bottom: 12px;
   }
 
+  .mobile-vs {
+    top: 20%;
+  }
+
   .fight-card-mobile-images img {
     max-height: 220px;
   }
@@ -1845,6 +1850,7 @@ a {
 
   .hero-sponsorships p {
     width: 100%;
+    padding: 0 30px;
     font-size: 18px;
   }
 
@@ -1930,13 +1936,18 @@ a {
   }
 
   .fight-card-matchup-socials a {
-    width: 22px;
-    height: 22px;
-    max-width: 22px;
-    max-height: 22px;
-    min-width: 22px;
-    min-height: 22px;
-    padding: 4px;
+    width: 26px;
+    height: 26px;
+    max-width: 26px;
+    max-height: 26px;
+    min-width: 26px;
+    min-height: 26px;
+    padding: 0px;
+  }
+
+  .fight-card-matchup-socials a img {
+    height: 12px;
+    width: 12px;
   }
 
   .warning-info .buttons {

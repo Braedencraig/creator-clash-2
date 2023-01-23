@@ -211,7 +211,7 @@ export default function Home() {
             </div>
           </div>
         )}
-        <Hero />
+        <Hero setLaunchModal={setLaunchModal} />
       </div>
       <Matchups />
       <Announcers />

@@ -2,7 +2,7 @@ import Image from "next/image";
 import cartBlack from "../public/assets/cartblack.png";
 import cartYellow from "../public/assets/cartyellow.png";
 
-export default function Hero() {
+export default function Hero({ setLaunchModal }) {
   return (
     <div className="hero">
       <h1>Influencers will pay.</h1>
@@ -23,7 +23,8 @@ export default function Hero() {
         </button>
         <button
           onClick={() => {
-            window.open("https://www.moment.co/creatorclash");
+            // window.open("https://www.moment.co/creatorclash");
+            setLaunchModal(true);
           }}
           className="inverted"
         >
