@@ -897,6 +897,10 @@ a {
   margin-right: 35px;
 }
 
+.border-fighter {
+  border: 8px solid white;
+}
+
 .reverse .fight-card-matchup-fight-image {
   margin-left: 35px;
   margin-right: 0;
@@ -1299,6 +1303,10 @@ a {
   .navigation ul,
   .navigation-tickets {
     display: none;
+  }
+
+  .border-fighter {
+    border: 4px solid white;
   }
 
   .announcers {

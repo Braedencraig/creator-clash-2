@@ -17,34 +17,34 @@ export default function Matchups() {
   const matchups = [
     {
       fighter1: {
-        name: "idubbbz",
-        bio: "YouTuber, Member of Misfits, Gamer",
-        record: "1 - 0",
-        height: "6'1",
-        weight: "168 LB",
-        zodiac: "Libra",
-        img: "/assets/goodguyfitz.png",
-        class: "light heavyweight",
-        socials: {
-          insta: "https://www.instagram.com/idubbbz/",
-          youtube: "https://www.youtube.com/c/idubbbztv",
-          twitter: "https://twitter.com/Idubbbz",
-        },
-      },
-      fighter2: {
         name: "Alex Wasabi",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'11",
         weight: "168 LB",
         zodiac: "Aries",
-        img: "/assets/ididathing.png",
+        img: "/assets/alex-min.jpg",
         class: "light heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@alexwassabi?lang=en",
           insta: "https://www.instagram.com/alexwassabi/?hl=en",
           youtube: "https://www.youtube.com/@Wassabi",
           twitter: "https://twitter.com/AlexWassabi",
+        },
+      },
+      fighter2: {
+        name: "idubbbz",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "6'1",
+        weight: "168 LB",
+        zodiac: "Libra",
+        img: "/assets/idubz-min.jpg",
+        class: "light heavyweight",
+        socials: {
+          insta: "https://www.instagram.com/idubbbz/",
+          youtube: "https://www.youtube.com/c/idubbbztv",
+          twitter: "https://twitter.com/Idubbbz",
         },
       },
       class: ["comedy"],
@@ -57,7 +57,7 @@ export default function Matchups() {
         height: "6'0",
         weight: "200 LB+",
         zodiac: "Libra",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/john-min.jpg",
         class: "super heavyweight",
         socials: {
           insta: "http://instagram.com/johnhennigan",
@@ -72,7 +72,7 @@ export default function Matchups() {
         height: "6'7",
         weight: "200 LB+",
         zodiac: "Virgo",
-        img: "/assets/ididathing.png",
+        img: "/assets/harley-min.jpg",
         class: "super heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@harleyplays",
@@ -91,7 +91,7 @@ export default function Matchups() {
         height: "6'3",
         weight: "200 LB+",
         zodiac: "Leo",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/ididathing-min.jpg",
         class: "heavyweight",
         socials: {
           youtube: "https://www.youtube.com/c/Ididathing",
@@ -105,7 +105,7 @@ export default function Matchups() {
         height: "6'3",
         weight: "200 LB+",
         zodiac: "Virgo",
-        img: "/assets/ididathing.png",
+        img: "/assets/fitz-min.jpg",
         class: "heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@fitz?lang=en",
@@ -124,7 +124,7 @@ export default function Matchups() {
         height: "5'2",
         weight: "130 LB",
         zodiac: "Capricorn",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/tyler-min.jpg",
         class: "featherweight",
         socials: {
           insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
@@ -139,7 +139,7 @@ export default function Matchups() {
         height: "5'4",
         weight: "130 LB",
         zodiac: "Sagittarius",
-        img: "/assets/ididathing.png",
+        img: "/assets/chris-min.jpg",
         class: "featherweight",
         socials: {
           tiktok: "https://www.tiktok.com/@chrisraygun?lang=en",
@@ -158,7 +158,7 @@ export default function Matchups() {
         height: "5'8",
         weight: "140 LB",
         zodiac: "Libra",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/hayley-min.jpg",
         class: "lightweight",
         socials: {
           tiktok: "https://www.tiktok.com/@yodelinghaley?lang=en",
@@ -173,7 +173,7 @@ export default function Matchups() {
         height: "5'6",
         weight: "140 LB",
         zodiac: "Taurus",
-        img: "/assets/ididathing.png",
+        img: "/assets/marisha-min.jpg",
         class: "lightweight",
         socials: {
           insta: "https://www.instagram.com/marisha_ray/?hl=en",
@@ -191,7 +191,7 @@ export default function Matchups() {
         height: "5'11",
         weight: "185 LB",
         zodiac: "Gemini",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/myth-min.jpg",
         class: "light heavyweight",
         socials: {
           insta: "https://www.instagram.com/mythig_/?hl=en",
@@ -207,7 +207,7 @@ export default function Matchups() {
         height: "5'11",
         weight: "185 LB",
         zodiac: "Cancer",
-        img: "/assets/ididathing.png",
+        img: "/assets/hundar-min.jpg",
         class: "light heavyweight",
         socials: {
           insta: "https://www.instagram.com/breadhungry/?hl=en",
@@ -226,7 +226,7 @@ export default function Matchups() {
         height: "6'2",
         weight: "195 LB",
         zodiac: "Capricorn",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/arin-min.jpg",
         class: "heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@gamegrumps",
@@ -243,7 +243,7 @@ export default function Matchups() {
         height: "6'1",
         weight: "195 LB",
         zodiac: "Taurus",
-        img: "/assets/ididathing.png",
+        img: "/assets/jarvis-min.jpg",
         class: "heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@jarv.s",
@@ -256,29 +256,13 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Alanah Pearce",
-        bio: "YouTuber, Member of Misfits, Gamer",
-        record: "1 - 0",
-        height: "5'9",
-        weight: "165 LB",
-        zodiac: "Virgo",
-        img: "/assets/goodguyfitz.png",
-        class: "middleweight",
-        socials: {
-          tiktok: "https://www.tiktok.com/@charalanahzard?lang=en",
-          insta: "https://www.instagram.com/charalanahzard/",
-          youtube: "https://www.youtube.com/channel/UCKpBmnEfSy20al-Fk_2YzVA",
-          twitter: "https://twitter.com/charalanahzard",
-        },
-      },
-      fighter2: {
         name: "RIPMika",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'9",
         weight: "165 LB",
         zodiac: "Virgo",
-        img: "/assets/ididathing.png",
+        img: "/assets/mika-min.jpg",
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@ripmika?lang=en",
@@ -288,39 +272,55 @@ export default function Matchups() {
             "https://twitter.com/RIPmika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
       },
+      fighter2: {
+        name: "Alanah Pearce",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'9",
+        weight: "165 LB",
+        zodiac: "Virgo",
+        img: "/assets/alanah-min.jpg",
+        class: "middleweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@charalanahzard?lang=en",
+          insta: "https://www.instagram.com/charalanahzard/",
+          youtube: "https://www.youtube.com/channel/UCKpBmnEfSy20al-Fk_2YzVA",
+          twitter: "https://twitter.com/charalanahzard",
+        },
+      },
       class: ["gaming"],
     },
     {
       fighter1: {
-        name: "CrankGamePlays",
-        bio: "YouTuber, Member of Misfits, Gamer",
-        record: "1 - 0",
-        height: "5'8",
-        weight: "155 LB",
-        zodiac: "Scorpio",
-        img: "/assets/goodguyfitz.png",
-        class: "middleweight",
-        socials: {
-          tiktok: "https://www.tiktok.com/@crankgameplays?lang=en",
-          insta: "https://www.instagram.com/crankgameplays/?hl=en",
-          youtube: "https://www.youtube.com/c/crankgame",
-          twitter: "https://twitter.com/CrankGameplays",
-        },
-      },
-      fighter2: {
         name: "Leonhart",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'10",
         weight: "155 LB",
         zodiac: "Aquarius",
-        img: "/assets/ididathing.png",
+        img: "/assets/leonhart-min.jpg",
         class: "middleweight",
         socials: {
           insta: "https://www.instagram.com/leonhart/",
           twitch: "https://www.twitch.tv/leonhartplays",
           youtube: "https://www.youtube.com/channel/UCBHD6Yg8R1yS9akfGm4mecQ",
           twitter: "https://twitter.com/LeonhartYT",
+        },
+      },
+      fighter2: {
+        name: "CrankGamePlays",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "5'8",
+        weight: "155 LB",
+        zodiac: "Scorpio",
+        img: "/assets/crank-min.jpg",
+        class: "middleweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@crankgameplays?lang=en",
+          insta: "https://www.instagram.com/crankgameplays/?hl=en",
+          youtube: "https://www.youtube.com/c/crankgame",
+          twitter: "https://twitter.com/CrankGameplays",
         },
       },
       class: ["gaming"],
@@ -333,7 +333,7 @@ export default function Matchups() {
         height: "6'0",
         weight: "170 LB",
         zodiac: "Aquarius",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/dad-min.jpg",
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@nathanbarnatt",
@@ -350,7 +350,7 @@ export default function Matchups() {
         height: "6'0",
         weight: "170 LB",
         zodiac: "Pisces",
-        img: "/assets/ididathing.png",
+        img: "/assets/ab-min.jpg",
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@_starkilla",
@@ -369,7 +369,7 @@ export default function Matchups() {
         height: "5'2",
         weight: "115 LB",
         zodiac: "Aquarius",
-        img: "/assets/goodguyfitz.png",
+        img: "/assets/jaelaray-min.jpg",
         class: "flyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@jaelaray",
@@ -385,7 +385,7 @@ export default function Matchups() {
         height: "5'2",
         weight: "115 LB",
         zodiac: "Pisces",
-        img: "/assets/ididathing.png",
+        img: "/assets/sabrina-min.jpg",
         class: "flyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@abelinasabrina",
@@ -398,34 +398,34 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Dakota Olave",
-        bio: "YouTuber, Member of Misfits, Gamer",
-        record: "1 - 0",
-        height: "6'7",
-        weight: "135 LB",
-        zodiac: "Scorpio",
-        img: "/assets/goodguyfitz.png",
-        class: "featherweight",
-        socials: {
-          tiktok: "https://www.tiktok.com/@dakotaolave?lang=en",
-          insta: "https://www.instagram.com/dakotaolave/?hl=en",
-          youtube: "https://www.youtube.com/dakotaolave",
-        },
-      },
-      fighter2: {
         name: "Jack Manifold",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'9",
         weight: "130 LB",
         zodiac: "Leo",
-        img: "/assets/ididathing.png",
+        img: "/assets/jackman-min.jpg",
         class: "featherweight",
         socials: {
           tiktok: "https://www.tiktok.com/@jackmanifoldtv?lang=en",
           insta: "https://www.instagram.com/JackManifoldTV/",
           twitch: "https://www.twitch.tv/JackManifoldTV",
           twitter: "https://twitter.com/JackManifoldTV",
+        },
+      },
+      fighter2: {
+        name: "Dakota Olave",
+        bio: "YouTuber, Member of Misfits, Gamer",
+        record: "1 - 0",
+        height: "6'7",
+        weight: "135 LB",
+        zodiac: "Scorpio",
+        img: "/assets/dakota-min.jpg",
+        class: "featherweight",
+        socials: {
+          tiktok: "https://www.tiktok.com/@dakotaolave?lang=en",
+          insta: "https://www.instagram.com/dakotaolave/?hl=en",
+          youtube: "https://www.youtube.com/dakotaolave",
         },
       },
       class: ["comedy", "gaming"],
@@ -488,6 +488,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter1.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <h3>{matchup.fighter1.name}</h3>
@@ -595,6 +596,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter2.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
@@ -700,6 +702,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter1.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <h3>{matchup.fighter1.name}</h3>
@@ -807,6 +810,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter2.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <h3 className={`reverse-h3`}>{matchup.fighter2.name}</h3>
@@ -917,6 +921,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter1.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <div className="fight-card-matchup-socials">
@@ -1038,6 +1043,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter2.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <div className="fight-card-matchup-socials">
@@ -1131,6 +1137,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter1.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <div className="fight-card-matchup-socials">
@@ -1252,6 +1259,7 @@ export default function Matchups() {
                       loading="lazy"
                       decoding="async"
                       src={matchup.fighter2.img}
+                      className="border-fighter"
                       alt="Fighter"
                     />
                     <div className="fight-card-matchup-socials">
