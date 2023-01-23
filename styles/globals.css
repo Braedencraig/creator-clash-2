@@ -1074,6 +1074,7 @@ a {
 @media (max-width: 1400px) {
   .fight-card-matchup-fight-image img {
     max-width: 250px;
+    max-height: 290px;
   }
   .fight-card-matchup-fighter-info h3,
   .fight-card-matchup-fighter-info .reverse-h3 {
@@ -1325,9 +1326,9 @@ a {
     justify-content: center;
   }
 
-  .fight-card-matchup-fight-image img {
+  /* .fight-card-matchup-fight-image img {
     max-width: 200px;
-  }
+  } */
 
   .matchups {
     padding: 30px;
@@ -1386,6 +1387,7 @@ a {
 
   .logo img {
     width: 80px;
+    height: 100px;
   }
 
   .hamburger-react {
@@ -1753,6 +1755,7 @@ a {
   .fight-card-mobile-images img {
     max-width: 100%;
     width: 100%;
+    /* max-height: 243px; */
   }
 
   .mobile {
@@ -1827,6 +1830,10 @@ a {
     margin-bottom: 12px;
   }
 
+  .fight-card-mobile-images img {
+    max-height: 220px;
+  }
+
   .hero-sponsorships {
     top: 33%;
   }
@@ -1873,8 +1880,8 @@ a {
   }
 
   .warning .close {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     top: 20px;
     right: 20px;
   }

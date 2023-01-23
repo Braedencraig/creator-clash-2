@@ -1,6 +1,36 @@
-/* eslint-disable @next/next/no-img-element */
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Accordion from "./accordion";
+import Image from "next/image";
+import filter from "../public/assets/filter.png";
+import alex from "../public/assets/alex-min.jpg";
+import idubz from "../public/assets/idubz-min.jpg";
+import john from "../public/assets/john-min.jpg";
+import harley from "../public/assets/harley-min.jpg";
+import ididathing from "../public/assets/ididathing-min.jpg";
+import fitz from "../public/assets/fitz-min.jpg";
+import tyler from "../public/assets/tyler-min.jpg";
+import chris from "../public/assets/chris-min.jpg";
+import hayley from "../public/assets/hayley-min.jpg";
+import marisha from "../public/assets/marisha-min.jpg";
+import myth from "../public/assets/myth-min.jpg";
+import hundar from "../public/assets/hundar-min.jpg";
+import arin from "../public/assets/arin-min.jpg";
+import jarvis from "../public/assets/jarvis-min.jpg";
+import mika from "../public/assets/mika-min.jpg";
+import alanah from "../public/assets/alanah-min.jpg";
+import leonhart from "../public/assets/leonhart-min.jpg";
+import crank from "../public/assets/crank-min.jpg";
+import dad from "../public/assets/dad-min.jpg";
+import ab from "../public/assets/ab-min.jpg";
+import dakota from "../public/assets/dakota-min.jpg";
+import jackman from "../public/assets/jackman-min.jpg";
+import jaelaray from "../public/assets/jaelaray-min.jpg";
+import sabrina from "../public/assets/sabrina-min.jpg";
+import tiktok from "../public/assets/tiktok.png";
+import insta from "../public/assets/insta.png";
+import youtube from "../public/assets/youtube.png";
+import twitter from "../public/assets/twitter.png";
+import twitch from "../public/assets/twitch.png";
 
 export default function Matchups() {
   const [active, isActive] = useState("all");
@@ -23,7 +53,7 @@ export default function Matchups() {
         height: "5'11",
         weight: "168 LB",
         zodiac: "Aries",
-        img: "/assets/alex-min.jpg",
+        img: alex,
         class: "light heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@alexwassabi?lang=en",
@@ -39,7 +69,7 @@ export default function Matchups() {
         height: "6'1",
         weight: "168 LB",
         zodiac: "Libra",
-        img: "/assets/idubz-min.jpg",
+        img: idubz,
         class: "light heavyweight",
         socials: {
           insta: "https://www.instagram.com/idubbbz/",
@@ -57,7 +87,7 @@ export default function Matchups() {
         height: "6'0",
         weight: "200 LB+",
         zodiac: "Libra",
-        img: "/assets/john-min.jpg",
+        img: john,
         class: "super heavyweight",
         socials: {
           insta: "http://instagram.com/johnhennigan",
@@ -72,7 +102,7 @@ export default function Matchups() {
         height: "6'7",
         weight: "200 LB+",
         zodiac: "Virgo",
-        img: "/assets/harley-min.jpg",
+        img: harley,
         class: "super heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@harleyplays",
@@ -91,7 +121,7 @@ export default function Matchups() {
         height: "6'3",
         weight: "200 LB+",
         zodiac: "Leo",
-        img: "/assets/ididathing-min.jpg",
+        img: ididathing,
         class: "heavyweight",
         socials: {
           youtube: "https://www.youtube.com/c/Ididathing",
@@ -105,7 +135,7 @@ export default function Matchups() {
         height: "6'3",
         weight: "200 LB+",
         zodiac: "Virgo",
-        img: "/assets/fitz-min.jpg",
+        img: fitz,
         class: "heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@fitz?lang=en",
@@ -124,7 +154,7 @@ export default function Matchups() {
         height: "5'2",
         weight: "130 LB",
         zodiac: "Capricorn",
-        img: "/assets/tyler-min.jpg",
+        img: tyler,
         class: "featherweight",
         socials: {
           insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
@@ -139,7 +169,7 @@ export default function Matchups() {
         height: "5'4",
         weight: "130 LB",
         zodiac: "Sagittarius",
-        img: "/assets/chris-min.jpg",
+        img: chris,
         class: "featherweight",
         socials: {
           tiktok: "https://www.tiktok.com/@chrisraygun?lang=en",
@@ -158,7 +188,7 @@ export default function Matchups() {
         height: "5'8",
         weight: "140 LB",
         zodiac: "Libra",
-        img: "/assets/hayley-min.jpg",
+        img: hayley,
         class: "lightweight",
         socials: {
           tiktok: "https://www.tiktok.com/@yodelinghaley?lang=en",
@@ -173,7 +203,7 @@ export default function Matchups() {
         height: "5'6",
         weight: "140 LB",
         zodiac: "Taurus",
-        img: "/assets/marisha-min.jpg",
+        img: marisha,
         class: "lightweight",
         socials: {
           insta: "https://www.instagram.com/marisha_ray/?hl=en",
@@ -191,7 +221,7 @@ export default function Matchups() {
         height: "5'11",
         weight: "185 LB",
         zodiac: "Gemini",
-        img: "/assets/myth-min.jpg",
+        img: myth,
         class: "light heavyweight",
         socials: {
           insta: "https://www.instagram.com/mythig_/?hl=en",
@@ -207,7 +237,7 @@ export default function Matchups() {
         height: "5'11",
         weight: "185 LB",
         zodiac: "Cancer",
-        img: "/assets/hundar-min.jpg",
+        img: hundar,
         class: "light heavyweight",
         socials: {
           insta: "https://www.instagram.com/breadhungry/?hl=en",
@@ -226,7 +256,7 @@ export default function Matchups() {
         height: "6'2",
         weight: "195 LB",
         zodiac: "Capricorn",
-        img: "/assets/arin-min.jpg",
+        img: arin,
         class: "heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@gamegrumps",
@@ -243,7 +273,7 @@ export default function Matchups() {
         height: "6'1",
         weight: "195 LB",
         zodiac: "Taurus",
-        img: "/assets/jarvis-min.jpg",
+        img: jarvis,
         class: "heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@jarv.s",
@@ -262,7 +292,7 @@ export default function Matchups() {
         height: "5'9",
         weight: "165 LB",
         zodiac: "Virgo",
-        img: "/assets/mika-min.jpg",
+        img: mika,
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@ripmika?lang=en",
@@ -279,7 +309,7 @@ export default function Matchups() {
         height: "5'9",
         weight: "165 LB",
         zodiac: "Virgo",
-        img: "/assets/alanah-min.jpg",
+        img: alanah,
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@charalanahzard?lang=en",
@@ -298,7 +328,7 @@ export default function Matchups() {
         height: "5'10",
         weight: "155 LB",
         zodiac: "Aquarius",
-        img: "/assets/leonhart-min.jpg",
+        img: leonhart,
         class: "middleweight",
         socials: {
           insta: "https://www.instagram.com/leonhart/",
@@ -314,7 +344,7 @@ export default function Matchups() {
         height: "5'8",
         weight: "155 LB",
         zodiac: "Scorpio",
-        img: "/assets/crank-min.jpg",
+        img: crank,
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@crankgameplays?lang=en",
@@ -333,7 +363,7 @@ export default function Matchups() {
         height: "6'0",
         weight: "170 LB",
         zodiac: "Aquarius",
-        img: "/assets/dad-min.jpg",
+        img: dad,
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@nathanbarnatt",
@@ -350,7 +380,7 @@ export default function Matchups() {
         height: "6'0",
         weight: "170 LB",
         zodiac: "Pisces",
-        img: "/assets/ab-min.jpg",
+        img: ab,
         class: "middleweight",
         socials: {
           tiktok: "https://www.tiktok.com/@_starkilla",
@@ -369,7 +399,7 @@ export default function Matchups() {
         height: "5'2",
         weight: "115 LB",
         zodiac: "Aquarius",
-        img: "/assets/jaelaray-min.jpg",
+        img: jaelaray,
         class: "flyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@jaelaray",
@@ -385,7 +415,7 @@ export default function Matchups() {
         height: "5'2",
         weight: "115 LB",
         zodiac: "Pisces",
-        img: "/assets/sabrina-min.jpg",
+        img: sabrina,
         class: "flyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@abelinasabrina",
@@ -404,7 +434,7 @@ export default function Matchups() {
         height: "5'9",
         weight: "130 LB",
         zodiac: "Leo",
-        img: "/assets/jackman-min.jpg",
+        img: jackman,
         class: "featherweight",
         socials: {
           tiktok: "https://www.tiktok.com/@jackmanifoldtv?lang=en",
@@ -420,7 +450,7 @@ export default function Matchups() {
         height: "6'7",
         weight: "135 LB",
         zodiac: "Scorpio",
-        img: "/assets/dakota-min.jpg",
+        img: dakota,
         class: "featherweight",
         socials: {
           tiktok: "https://www.tiktok.com/@dakotaolave?lang=en",
@@ -442,25 +472,13 @@ export default function Matchups() {
         commodo consequat. Duis aute irure. */}
       </p>
       <div className="filter-mobile">
-        <img
-          fetchpriority="low"
-          loading="lazy"
-          decoding="async"
-          src="/assets/filter.png"
-          alt="Filter icon"
-        />
+        <Image src={filter} alt="Filter icon" />
         <p>Filter By</p>
       </div>
 
       <div className="tags">
         <div className="filter">
-          <img
-            fetchpriority="low"
-            loading="lazy"
-            decoding="async"
-            src="/assets/filter.png"
-            alt="Filter icon"
-          />
+          <Image src={filter} alt="Filter icon" />
           <p>Filter By</p>
         </div>
         {categories.map((category) => {
@@ -483,10 +501,7 @@ export default function Matchups() {
               <div key={i} className="fight-card-matchup">
                 <div className="fight-card-mobile-images fight-card-matchup-fighter-info">
                   <div className="not-reverse">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter1.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -516,13 +531,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter1.socials.insta && (
@@ -531,13 +540,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitter && (
@@ -546,13 +549,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter1.socials.youtube && (
@@ -561,13 +558,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitch && (
@@ -576,13 +567,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -591,10 +576,7 @@ export default function Matchups() {
                     <span>VS</span>
                   </div>
                   <div className="reverse">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter2.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -618,13 +600,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter2.socials.insta && (
@@ -633,13 +609,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitter && (
@@ -648,13 +618,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter2.socials.youtube && (
@@ -663,13 +627,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitch && (
@@ -678,13 +636,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -697,10 +649,7 @@ export default function Matchups() {
               <div key={i} className="fight-card-matchup">
                 <div className="fight-card-mobile-images fight-card-matchup-fighter-info">
                   <div className="not-reverse">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter1.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -730,13 +679,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter1.socials.insta && (
@@ -745,13 +688,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitter && (
@@ -760,13 +697,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter1.socials.youtube && (
@@ -775,13 +706,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitch && (
@@ -790,13 +715,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -805,10 +724,7 @@ export default function Matchups() {
                     <span>VS</span>
                   </div>
                   <div className="reverse">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter2.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -832,13 +748,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter2.socials.insta && (
@@ -847,13 +757,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitter && (
@@ -862,13 +766,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter2.socials.youtube && (
@@ -877,13 +775,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitch && (
@@ -892,13 +784,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -916,10 +802,7 @@ export default function Matchups() {
               <div key={i} className="fight-card-matchup">
                 <div className="fight-card-matchup-fighter">
                   <div className="fight-card-matchup-fight-image">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter1.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -931,13 +814,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter1.socials.insta && (
@@ -946,13 +823,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitter && (
@@ -961,13 +832,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter1.socials.youtube && (
@@ -976,13 +841,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitch && (
@@ -991,13 +850,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -1038,10 +891,7 @@ export default function Matchups() {
                 </div>
                 <div className="fight-card-matchup-fighter reverse">
                   <div className="fight-card-matchup-fight-image">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter2.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -1053,13 +903,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter2.socials.insta && (
@@ -1068,13 +912,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitter && (
@@ -1083,13 +921,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter2.socials.youtube && (
@@ -1098,13 +930,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitch && (
@@ -1113,13 +939,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -1132,10 +952,7 @@ export default function Matchups() {
               <div key={i} className="fight-card-matchup">
                 <div className="fight-card-matchup-fighter">
                   <div className="fight-card-matchup-fight-image">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter1.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -1147,13 +964,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter1.socials.insta && (
@@ -1162,13 +973,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitter && (
@@ -1177,13 +982,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter1.socials.youtube && (
@@ -1192,13 +991,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter1.socials.twitch && (
@@ -1207,13 +1000,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>
@@ -1254,10 +1041,7 @@ export default function Matchups() {
                 </div>
                 <div className="fight-card-matchup-fighter reverse">
                   <div className="fight-card-matchup-fight-image">
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
+                    <Image
                       src={matchup.fighter2.img}
                       className="border-fighter"
                       alt="Fighter"
@@ -1269,13 +1053,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/tiktok.png"
-                            alt="TikTok"
-                          />
+                          <Image src={tiktok} alt="tiktok" />
                         </a>
                       )}
                       {matchup.fighter2.socials.insta && (
@@ -1284,13 +1062,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/insta.png"
-                            alt="Instagram"
-                          />
+                          <Image src={insta} alt="instagram" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitter && (
@@ -1299,13 +1071,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitter.png"
-                            alt="Twitter"
-                          />
+                          <Image src={twitter} alt="twitter" />
                         </a>
                       )}
                       {matchup.fighter2.socials.youtube && (
@@ -1314,13 +1080,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                          />
+                          <Image src={youtube} alt="youtube" />
                         </a>
                       )}
                       {matchup.fighter2.socials.twitch && (
@@ -1329,13 +1089,7 @@ export default function Matchups() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/twitch.png"
-                            alt="twitch"
-                          />
+                          <Image src={twitch} alt="twitch" />
                         </a>
                       )}
                     </div>

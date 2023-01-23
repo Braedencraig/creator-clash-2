@@ -1,5 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-import React from "react";
+import Image from "next/image";
+import cartBlack from "../public/assets/cartblack.png";
+import cartYellow from "../public/assets/cartyellow.png";
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
           }}
         >
           <span>
-            <img src="/assets/cartblack.png" alt="shopping cart" />
+            <Image src={cartBlack} alt="shopping cart" />
           </span>
           Event Tickets
         </button>
@@ -27,7 +28,7 @@ export default function Hero() {
           className="inverted"
         >
           <span>
-            <img src="/assets/cartyellow.png" alt="shopping cart" />
+            <Image src={cartYellow} alt="shopping cart" />
           </span>
           PPV Tickets
         </button>

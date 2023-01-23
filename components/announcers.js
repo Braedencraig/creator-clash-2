@@ -1,12 +1,17 @@
-/* eslint-disable @next/next/no-img-element */
-import React from "react";
+import Image from "next/image";
+import announcer1 from "../public/assets/announcer.png";
+import tiktok from "../public/assets/tiktok.png";
+import insta from "../public/assets/insta.png";
+import youtube from "../public/assets/youtube.png";
+import twitter from "../public/assets/twitter.png";
+import twitch from "../public/assets/twitch.png";
 
 export default function Announcers() {
   const announcers = [
     {
       fullName: "MoistCr1tikal",
       bio: "Commentary",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/user/penguinz0",
         insta: "http://instagram.com/MoistCr1tikal",
@@ -17,7 +22,7 @@ export default function Announcers() {
     {
       fullName: "JACKSEPTICEYE",
       bio: "Pre/Post-fight Show Host",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g",
         insta: "http://instagram.com/jacksepticeye",
@@ -28,7 +33,7 @@ export default function Announcers() {
     {
       fullName: "MARKIPLIER",
       bio: "Pre Fight Interviews",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UC7_YxT-KID8kRbqZo7MyscQ",
         tiktok: "https://www.tiktok.com/@markiplier",
@@ -39,7 +44,7 @@ export default function Announcers() {
     {
       fullName: "ESFAND",
       bio: "Dressing Room Interviews",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/c/EsfandTV?app=desktop",
         insta: "https://www.instagram.com/esfandtv",
@@ -51,7 +56,7 @@ export default function Announcers() {
     {
       fullName: "Tony Jefferies",
       bio: "Commentary",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/c/TonyJeffries1/videos",
         insta: "http://instagram.com/Tony_Jeffries",
@@ -62,7 +67,7 @@ export default function Announcers() {
     {
       fullName: "Wade Plemons",
       bio: "Commentary",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/c/TheWADEConcept",
         insta: "https://www.instagram.com/wadeplem/",
@@ -72,7 +77,7 @@ export default function Announcers() {
     {
       fullName: "Amouranth",
       bio: "Pre Fight Interviews",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         insta: "https://www.instagram.com/kaitgonewild/",
         twitter:
@@ -83,7 +88,7 @@ export default function Announcers() {
     {
       fullName: "Matt Watson",
       bio: "National Anthem Performer",
-      img: "/assets/announcer.png",
+      img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UCobJseYd3Z4Kd9igg8PWXpQ",
         insta: "http://instagram.com/matthwatson",
@@ -98,69 +103,33 @@ export default function Announcers() {
         {announcers.map((announcer) => {
           return (
             <div className="announcer" key={announcer.fullname}>
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src={announcer.img}
-                alt="Announcer"
-              />
+              <Image src={announcer.img} alt={announcer.fullName} />
               <h3>{announcer.fullName}</h3>
               <p>{announcer.bio}</p>
               <div className="announcer-socials">
                 {announcer.socials.tiktok && (
                   <a href={announcer.socials.tiktok}>
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
-                      src="/assets/tiktok.png"
-                      alt="TikTok"
-                    />
+                    <Image src={tiktok} alt={"Tik tok"} />
                   </a>
                 )}
                 {announcer.socials.youtube && (
                   <a href={announcer.socials.youtube}>
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
-                      src="/assets/youtube.png"
-                      alt="YouTube"
-                    />
+                    <Image src={youtube} alt={"youtube"} />
                   </a>
                 )}
                 {announcer.socials.insta && (
                   <a href={announcer.socials.insta}>
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
-                      src="/assets/insta.png"
-                      alt="Instagram"
-                    />
+                    <Image src={insta} alt={"instagram"} />
                   </a>
                 )}
                 {announcer.socials.twitter && (
                   <a href={announcer.socials.twitter}>
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
-                      src="/assets/twitter.png"
-                      alt="Twitter"
-                    />
+                    <Image src={twitter} alt={"twitter"} />
                   </a>
                 )}
                 {announcer.socials.twitch && (
                   <a href={announcer.socials.twitch}>
-                    <img
-                      fetchpriority="low"
-                      loading="lazy"
-                      decoding="async"
-                      src="/assets/twitch.png"
-                      alt="Twitch"
-                    />
+                    <Image src={twitch} alt={"twitch"} />
                   </a>
                 )}
               </div>
@@ -168,51 +137,21 @@ export default function Announcers() {
           );
         })}
         <div className="announcer opacity-none">
-          <img
-            fetchpriority="low"
-            loading="lazy"
-            decoding="async"
-            src={announcers[0].img}
-            alt="Announcer"
-          />
+          <Image src={announcers[0].img} alt={announcers[0].fullName} />
           <h3>{announcers[0].fullName}</h3>
           <p>{announcers[0].bio}</p>
           <div className="announcer-socials">
             <a href={announcers[0].socials.youtube}>
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/youtube.png"
-                alt="YouTube"
-              />
+              <Image src={youtube} alt={"Youtube"} />
             </a>
             <a href={announcers[0].socials.insta}>
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/insta.png"
-                alt="Instagram"
-              />
+              <Image src={insta} alt={"Instagram"} />
             </a>
             <a href={announcers[0].socials.twitter}>
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/twitter.png"
-                alt="Twitter"
-              />
+              <Image src={twitter} alt={"Twitter"} />
             </a>
             <a href={announcers[0].socials.twitch}>
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/twitch.png"
-                alt="Twitch"
-              />
+              <Image src={twitch} alt={"Twitch"} />
             </a>
           </div>
         </div>

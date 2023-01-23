@@ -1,11 +1,17 @@
-/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navigation from "../components/navigation";
 import { useState } from "react";
 import Link from "next/link";
 import Dropdown from "../components/dropdown";
 import Footer from "../components/footer";
+import chevron from "../public/assets/chevron.png";
+import tiktok from "../public/assets/tiktok.png";
+import insta from "../public/assets/insta.png";
+import twitter from "../public/assets/twitter.png";
+import cartBlack from "../public/assets/cartblack.png";
+import close from "../public/assets/close.png";
 
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -102,13 +108,7 @@ export default function Home() {
                       <button>
                         Tickets{" "}
                         <span>
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/chevron.png"
-                            alt="navigation chevron"
-                          />
+                          <Image src={chevron} alt="navigation chevron" />
                         </span>
                       </button>
                     }
@@ -128,32 +128,26 @@ export default function Home() {
                 </div>
                 <div className="mobile-socials">
                   <div className="mobile-socials-container">
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img
-                        fetchpriority="low"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/tiktok.png"
-                        alt="TikTok"
-                      />
+                    <a
+                      href="https://www.tiktok.com/@creatorclashofficial?lang=en"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image src={tiktok} alt="TikTok" />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img
-                        fetchpriority="low"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/insta.png"
-                        alt="Instagram"
-                      />
+                    <a
+                      href="https://www.instagram.com/thecreatorclash/?hl=en"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image src={insta} alt="Instagram" />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img
-                        fetchpriority="low"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/twitter.png"
-                        alt="Twitter"
-                      />
+                    <a
+                      href="https://twitter.com/TheCreatorClash?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image src={twitter} alt="Twitter" />
                     </a>
                   </div>
                 </div>
@@ -166,16 +160,13 @@ export default function Home() {
             <div className={`${styles.overlayContent} ${styles.modalOverlay}`}>
               <div className={styles.center}>
                 <div className="warning">
-                  <img
-                    fetchpriority="low"
-                    loading="lazy"
-                    decoding="async"
+                  <Image
                     onClick={() => {
                       setLaunchModal(false);
                       setOpen(false);
                     }}
                     className="close"
-                    src="/assets/close.png"
+                    src={close}
                     alt="Close modal"
                   />
                   <div className="warning-info">
@@ -201,17 +192,13 @@ export default function Home() {
                         }}
                       >
                         <span>
-                          <img
-                            fetchpriority="low"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/cartblack.png"
-                            alt="shopping cart"
-                          />
+                          <Image src={cartBlack} alt="shopping cart" />
                         </span>
                         PPV Ticket
                       </button>
-                      <a href="">Actually, I want an event ticket</a>
+                      <a href="https://www.ticketmaster.com/event/0D005E33DAC2E9EC">
+                        Actually, I want an event ticket
+                      </a>
                     </div>
                   </div>
                 </div>

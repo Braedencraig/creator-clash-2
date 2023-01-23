@@ -1,6 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
-import React, { useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
+import Image from "next/image";
+import tiktok from "../public/assets/tiktok.png";
+import insta from "../public/assets/insta.png";
+import twitter from "../public/assets/twitter.png";
+import footerRgt from "../public/assets/footer-rgt.png";
+import footerLogo from "../public/assets/footer-logo.png";
+import moment from "../public/assets/moment.png";
 
 export default function Footer() {
   const [success, setSuccess] = useState(false);
@@ -78,20 +84,8 @@ export default function Footer() {
         )}
         <div className="desktop-bottom">
           <div className="desktop-images">
-            <img
-              fetchpriority="low"
-              loading="lazy"
-              decoding="async"
-              src="/assets/footer-rgt.png"
-              alt="Real Good Touring"
-            />
-            <img
-              fetchpriority="low"
-              loading="lazy"
-              decoding="async"
-              src="/assets/footer-logo.png"
-              alt="Creator Clash 2"
-            />
+            <Image src={footerRgt} alt={"Real Good Touring"} />
+            <Image src={footerLogo} alt={"Creator Clash 2"} />
           </div>
           <div className="cheeky-socials">
             <div className="fight-card-matchup-socials">
@@ -100,52 +94,28 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  fetchpriority="low"
-                  loading="lazy"
-                  decoding="async"
-                  src="/assets/tiktok.png"
-                  alt="TikTok"
-                />
+                <Image src={tiktok} alt={"Tik tok"} />
               </a>
               <a
                 href="https://www.instagram.com/thecreatorclash/?hl=en"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  fetchpriority="low"
-                  loading="lazy"
-                  decoding="async"
-                  src="/assets/insta.png"
-                  alt="Instagram"
-                />
+                <Image src={insta} alt={"Instagram"} />
               </a>
               <a
                 href="https://twitter.com/TheCreatorClash?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  fetchpriority="low"
-                  loading="lazy"
-                  decoding="async"
-                  src="/assets/twitter.png"
-                  alt="Twitter"
-                />
+                <Image src={twitter} alt={"Twitter"} />
               </a>
             </div>
           </div>
         </div>
         <div className="moment">
           <p>Broadcast live on</p>
-          <img
-            fetchpriority="low"
-            loading="lazy"
-            decoding="async"
-            src="/assets/moment.png"
-            alt="Moment"
-          />
+          <Image src={moment} alt={"Moment"} />
         </div>
       </div>
     </div>

@@ -1,9 +1,14 @@
 /* eslint-disable react/jsx-key */
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Image from "next/image";
 import Hamburger from "hamburger-react";
 import Dropdown from "./dropdown";
 import { useEffect } from "react";
+import logo from "../public/assets/logo.png";
+import tiktok from "../public/assets/tiktok.png";
+import insta from "../public/assets/insta.png";
+import twitter from "../public/assets/twitter.png";
+import chevron from "../public/assets/chevron.png";
 
 export default function Navigation({
   isOpen,
@@ -45,7 +50,7 @@ export default function Navigation({
       </ul>
       <div className="logo">
         <Link href="/">
-          <img src="/assets/logo.png" alt="Creator Clash Two" />
+          <Image src={logo} alt="Creator Clash Two" />
         </Link>
       </div>
       <div className="navigation-tickets">
@@ -56,39 +61,21 @@ export default function Navigation({
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/tiktok.png"
-                alt="TikTok"
-              />
+              <Image src={tiktok} alt={"Tik tok"} />
             </a>
             <a
               href="https://www.instagram.com/thecreatorclash/?hl=en"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/insta.png"
-                alt="Instagram"
-              />
+              <Image src={insta} alt={"Instagram"} />
             </a>
             <a
               href="https://twitter.com/TheCreatorClash?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                fetchpriority="low"
-                loading="lazy"
-                decoding="async"
-                src="/assets/twitter.png"
-                alt="Twitter"
-              />
+              <Image src={twitter} alt={"Twitter"} />
             </a>
           </div>
         </div>
@@ -99,13 +86,7 @@ export default function Navigation({
             <button>
               Tickets{" "}
               <span>
-                <img
-                  fetchpriority="low"
-                  loading="lazy"
-                  decoding="async"
-                  src="/assets/chevron.png"
-                  alt="navigation chevron"
-                />
+                <Image src={chevron} alt="navigation chevron" />
               </span>
             </button>
           }
