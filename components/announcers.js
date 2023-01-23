@@ -14,7 +14,7 @@ export default function Announcers() {
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/user/penguinz0",
-        insta: "http://instagram.com/MoistCr1tikal",
+        insta: "https://instagram.com/MoistCr1tikal",
         twitter: "https://twitter.com/MoistCr1TiKaL",
         twitch: "https://www.twitch.tv/moistcr1tikal",
       },
@@ -25,7 +25,7 @@ export default function Announcers() {
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g",
-        insta: "http://instagram.com/jacksepticeye",
+        insta: "https://instagram.com/jacksepticeye",
         twitter: "https://twitter.com/Jacksepticeye",
         twitch: "https://www.twitch.tv/jacksepticeye",
       },
@@ -59,7 +59,7 @@ export default function Announcers() {
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/c/TonyJeffries1/videos",
-        insta: "http://instagram.com/Tony_Jeffries",
+        insta: "https://instagram.com/Tony_Jeffries",
         twitter:
           "https://twitter.com/Tony_Jeffries?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
       },
@@ -91,7 +91,7 @@ export default function Announcers() {
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UCobJseYd3Z4Kd9igg8PWXpQ",
-        insta: "http://instagram.com/matthwatson",
+        insta: "https://instagram.com/matthwatson",
         twitter: "https://twitter.com/matthwatson",
       },
     },

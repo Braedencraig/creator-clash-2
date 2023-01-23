@@ -90,7 +90,7 @@ export default function Matchups() {
         img: john,
         class: "super heavyweight",
         socials: {
-          insta: "http://instagram.com/johnhennigan",
+          insta: "https://instagram.com/johnhennigan",
           twitter:
             "https://twitter.com/TheRealMorrison?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
@@ -106,7 +106,7 @@ export default function Matchups() {
         class: "super heavyweight",
         socials: {
           tiktok: "https://www.tiktok.com/@harleyplays",
-          insta: "http://instagram.com/harleyplays",
+          insta: "https://instagram.com/harleyplays",
           youtube: "https://www.youtube.com/c/HarleyMorenstein",
           twitter: "https://twitter.com/HarleyPlays",
         },

@@ -52,11 +52,11 @@ export default function Home() {
         <meta name="description" content="Creator Clash" />
         <meta property="og:title" content="Creator Clash" />
         <meta property="og:description" content="Creator Clash" />
-        <meta property="og:url" content="http://thecreatorclash.com/" />
+        <meta property="og:url" content="https://thecreatorclash.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="http://thecreatorclash.com/logo.png"
+          content="https://thecreatorclash.com/logo.png"
         />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="500" />
@@ -65,7 +65,7 @@ export default function Home() {
         <meta name="twitter:description" content="Creator Clash" />
         <meta
           name="twitter:image"
-          content="http://thecreatorclash.com/logo.png"
+          content="https://thecreatorclash.com/logo.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
