@@ -765,6 +765,8 @@ a {
 
 .matchups {
   padding: 70px;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 .matchups h2 {
