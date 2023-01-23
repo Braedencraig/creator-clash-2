@@ -47,11 +47,11 @@ export default function Matchups() {
   const matchups = [
     {
       fighter1: {
-        name: "Alex Wasabi",
+        name: "Alex Wassabi",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'11",
-        weight: "168 LB",
+        weight: "168 LBS",
         zodiac: "Aries",
         img: alex,
         class: "light heavyweight",
@@ -67,7 +67,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'1",
-        weight: "168 LB",
+        weight: "168 LBS",
         zodiac: "Libra",
         img: idubz,
         class: "light heavyweight",
@@ -85,7 +85,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'0",
-        weight: "200 LB+",
+        weight: "200+ LBS",
         zodiac: "Libra",
         img: john,
         class: "super heavyweight",
@@ -96,11 +96,11 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Harley Morenstein",
+        name: "Harley Morenstein (Epic Meal Time)",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
-        height: "6'7",
-        weight: "200 LB+",
+        height: "6'6",
+        weight: "200+ LBS",
         zodiac: "Virgo",
         img: harley,
         class: "super heavyweight",
@@ -119,7 +119,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'3",
-        weight: "200 LB+",
+        weight: "200+ LBS",
         zodiac: "Leo",
         img: ididathing,
         class: "heavyweight",
@@ -133,7 +133,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'3",
-        weight: "200 LB+",
+        weight: "200+ LBS",
         zodiac: "Virgo",
         img: fitz,
         class: "heavyweight",
@@ -152,11 +152,12 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'2",
-        weight: "130 LB",
+        weight: "130 LBS",
         zodiac: "Capricorn",
         img: tyler,
         class: "featherweight",
         socials: {
+          tiktok: "https://www.tiktok.com/@tylerscassidy?lang=en",
           insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
           youtube: "https://www.youtube.com/channel/UC77bLHly_nVZJzL-nXSO2XQ",
           twitter: "https://twitter.com/iAmFroggyFresh",
@@ -167,7 +168,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'4",
-        weight: "130 LB",
+        weight: "130 LBS",
         zodiac: "Sagittarius",
         img: chris,
         class: "featherweight",
@@ -182,11 +183,11 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "YodelingHaley",
+        name: "Yodeling Haley",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'8",
-        weight: "140 LB",
+        weight: "140 LBS",
         zodiac: "Libra",
         img: hayley,
         class: "lightweight",
@@ -197,16 +198,17 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Marisha Ray Huber",
+        name: "Marisha Ray Huber (Critical Role)",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'6",
-        weight: "140 LB",
+        weight: "140 LBS",
         zodiac: "Taurus",
         img: marisha,
         class: "lightweight",
         socials: {
           insta: "https://www.instagram.com/marisha_ray/?hl=en",
+          youtube: "https://www.youtube.com/@criticalrole",
           twitter:
             "https://twitter.com/Marisha_Ray?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
@@ -219,7 +221,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'11",
-        weight: "185 LB",
+        weight: "185 LBS",
         zodiac: "Gemini",
         img: myth,
         class: "light heavyweight",
@@ -235,7 +237,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'11",
-        weight: "185 LB",
+        weight: "185 LBS",
         zodiac: "Cancer",
         img: hundar,
         class: "light heavyweight",
@@ -250,11 +252,11 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Arin Hanson",
+        name: "Arin Hanson (Game Grumps)",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'2",
-        weight: "195 LB",
+        weight: "200+ LBS",
         zodiac: "Capricorn",
         img: arin,
         class: "heavyweight",
@@ -271,7 +273,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'1",
-        weight: "195 LB",
+        weight: "200+ LBS",
         zodiac: "Taurus",
         img: jarvis,
         class: "heavyweight",
@@ -290,7 +292,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'9",
-        weight: "165 LB",
+        weight: "165 LBS",
         zodiac: "Virgo",
         img: mika,
         class: "middleweight",
@@ -307,7 +309,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'9",
-        weight: "165 LB",
+        weight: "165 LBS",
         zodiac: "Virgo",
         img: alanah,
         class: "middleweight",
@@ -326,7 +328,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'10",
-        weight: "155 LB",
+        weight: "155 LBS",
         zodiac: "Aquarius",
         img: leonhart,
         class: "middleweight",
@@ -342,7 +344,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'8",
-        weight: "155 LB",
+        weight: "155 LBS",
         zodiac: "Scorpio",
         img: crank,
         class: "middleweight",
@@ -361,7 +363,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'0",
-        weight: "170 LB",
+        weight: "170 LBS",
         zodiac: "Aquarius",
         img: dad,
         class: "middleweight",
@@ -374,11 +376,11 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "AB",
+        name: "AB (H3 Podcast)",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'0",
-        weight: "170 LB",
+        weight: "170 LBS",
         zodiac: "Pisces",
         img: ab,
         class: "middleweight",
@@ -397,7 +399,7 @@ export default function Matchups() {
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'2",
-        weight: "115 LB",
+        weight: "115 LBS",
         zodiac: "Aquarius",
         img: jaelaray,
         class: "flyweight",
@@ -413,7 +415,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'2",
-        weight: "115 LB",
+        weight: "115 LBS",
         zodiac: "Pisces",
         img: sabrina,
         class: "flyweight",
@@ -432,7 +434,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'9",
-        weight: "130 LB",
+        weight: "130 LBS",
         zodiac: "Leo",
         img: jackman,
         class: "featherweight",
@@ -447,8 +449,8 @@ export default function Matchups() {
         name: "Dakota Olave",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
-        height: "6'7",
-        weight: "135 LB",
+        height: "5'9",
+        weight: "135 LBS",
         zodiac: "Scorpio",
         img: dakota,
         class: "featherweight",
@@ -465,18 +467,17 @@ export default function Matchups() {
   return (
     <div className="matchups">
       <h2>Player Matchups</h2>
-      <p className="matchups-info">
-        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      {/* <p className="matchups-info"> */}
+      {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure. */}
-      </p>
-      <div className="filter-mobile">
+      {/* </p> */}
+      {/* <div className="filter-mobile">
         <Image src={filter} alt="Filter icon" />
         <p>Filter By</p>
-      </div>
-
-      <div className="tags">
+      </div> */}
+      {/* <div className="tags">
         <div className="filter">
           <Image src={filter} alt="Filter icon" />
           <p>Filter By</p>
@@ -493,7 +494,7 @@ export default function Matchups() {
             </div>
           );
         })}
-      </div>
+      </div> */}
       <div className="fight-cards mobile">
         {matchups.map((matchup, i) => {
           if (matchup.class.includes(active)) {
@@ -517,7 +518,7 @@ export default function Matchups() {
                           Height: {matchup.fighter1.height}
                         </p>
                         <p className="blue">
-                          Goal Weight: {matchup.fighter1.weight}
+                          Fight Weight: {matchup.fighter1.weight}
                         </p>
                         <p className="blue">
                           Zodiac: {matchup.fighter1.zodiac}
@@ -588,7 +589,7 @@ export default function Matchups() {
                         {/* <p className="red">Record: {matchup.fighter2.record}</p> */}
                         <p className="red">Height: {matchup.fighter2.height}</p>
                         <p className="red">
-                          Goal Weight: {matchup.fighter2.weight}
+                          Fight Weight: {matchup.fighter2.weight}
                         </p>
                         <p className="red">Zodiac: {matchup.fighter2.zodiac}</p>
                       </div>
@@ -665,7 +666,7 @@ export default function Matchups() {
                           Height: {matchup.fighter1.height}
                         </p>
                         <p className="blue">
-                          Goal Weight: {matchup.fighter1.weight}
+                          Fight Weight: {matchup.fighter1.weight}
                         </p>
                         <p className="blue">
                           Zodiac: {matchup.fighter1.zodiac}
@@ -736,7 +737,7 @@ export default function Matchups() {
                         {/* <p className="red">Record: {matchup.fighter2.record}</p> */}
                         <p className="red">Height: {matchup.fighter2.height}</p>
                         <p className="red">
-                          Goal Weight: {matchup.fighter2.weight}
+                          Fight Weight: {matchup.fighter2.weight}
                         </p>
                         <p className="red">Zodiac: {matchup.fighter2.zodiac}</p>
                       </div>
@@ -879,7 +880,7 @@ export default function Matchups() {
                     </div>
                     <div className="table-row">
                       <p className="red">{matchup.fighter1.weight}</p>
-                      <p>Goal Weight</p>
+                      <p>Fight Weight</p>
                       <p className="blue">{matchup.fighter2.weight}</p>
                     </div>
                     <div className="table-row no-border">
@@ -1029,7 +1030,7 @@ export default function Matchups() {
                     </div>
                     <div className="table-row">
                       <p className="red">{matchup.fighter1.weight}</p>
-                      <p>Goal Weight</p>
+                      <p>Fight Weight</p>
                       <p className="blue">{matchup.fighter2.weight}</p>
                     </div>
                     <div className="table-row no-border">

@@ -770,6 +770,7 @@ a {
 }
 
 .matchups h2 {
+  margin-bottom: 30px;
   font-size: 65px;
   font-family: "pixeboy", sans-serif;
 }
@@ -885,13 +886,14 @@ a {
 }
 
 .fight-card-matchup-fighter-info h3 {
-  line-height: 30px;
+  /* line-height: 30px; */
+  line-height: 24px;
   color: #2f80ed;
-  font-size: 38px;
+  font-size: 30px;
   margin-bottom: 8px;
-  line-height: 46px;
+  /* line-height: 46px; */
   width: 40%;
-  word-break: break-word;
+  /* word-break: break-word; */
   font-family: "pixeboy", sans-serif;
 }
 
@@ -909,9 +911,10 @@ a {
 }
 
 .fight-card-matchup-fighter-info .reverse-h3 {
-  line-height: 30px;
+  /* line-height: 30px; */
+  line-height: 24px;
   color: #f22525;
-  font-size: 38px;
+  font-size: 30px;
   margin-bottom: 8px;
   text-align: right;
 }
@@ -1080,8 +1083,8 @@ a {
   }
   .fight-card-matchup-fighter-info h3,
   .fight-card-matchup-fighter-info .reverse-h3 {
-    font-size: 30px;
-    line-height: 24px;
+    font-size: 26px;
+    /* line-height: 24px; */
   }
 
   .fight-card-matchup-fighter-bio p {
@@ -1449,6 +1452,10 @@ a {
     max-width: 100%;
   }
 
+  .reverse {
+    width: 50%;
+  }
+
   .revision-footer {
     flex-direction: column;
     gap: 0;
@@ -1703,6 +1710,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 4px;
+    width: 50%;
   }
 
   .fight-card-matchup-socials img {
@@ -1834,11 +1842,7 @@ a {
   }
 
   .mobile-vs {
-    top: 20%;
-  }
-
-  .fight-card-mobile-images img {
-    max-height: 220px;
+    top: 80px;
   }
 
   .hero-sponsorships {
@@ -1858,7 +1862,16 @@ a {
 
   .fight-card-matchup-fighter-info h3 {
     height: 44px;
-    font-size: 26px !important;
+    font-size: 20px !important;
+    line-height: normal;
+    padding-left: 0px;
+  }
+
+  .fight-card-matchup-fighter-info .reverse-h3 {
+    height: 44px;
+    font-size: 20px !important;
+    line-height: normal;
+    padding-left: 10px;
   }
 
   .warning-info a {
@@ -2025,4 +2038,10 @@ a {
 .nextimg {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 500px) {
+  .fight-card-mobile-images img {
+    max-height: 200px;
+  }
 }
