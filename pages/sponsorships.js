@@ -215,8 +215,8 @@ export default function Home() {
         <h1>Sponsorship Opportunities</h1>
         <p>
           For sponsorship opportunities please reach out to{" "}
-          <a href="mailto:creatorclash@concurrent.co">
-            creatorclash@concurrent.co
+          <a href="mailto:creatorclash@concurrentstudios.com">
+            creatorclash@concurrentstudios.com
           </a>
         </p>
       </div>

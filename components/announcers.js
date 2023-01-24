@@ -12,13 +12,15 @@ import mark from "../public/assets/mark-ann.jpg";
 import tony from "../public/assets/tony-ann.jpg";
 import aki from "../public/assets/aki-ann.jpg";
 import amouranth from "../public/assets/amouranth-ann.jpg";
+import matt from "../public//assets/matt-ann.jpeg";
+import moist from "../public//assets/moist-ann.jpeg";
 
 export default function Announcers() {
   const announcers = [
     {
       fullName: "MoistCr1tikal",
       bio: "Commentary",
-      img: announcer1,
+      img: moist,
       socials: {
         youtube: "https://www.youtube.com/user/penguinz0",
         insta: "https://www.instagram.com/bigmoistcr1tikal/?hl=en",
@@ -95,7 +97,7 @@ export default function Announcers() {
     {
       fullName: "Matt Watson",
       bio: "National Anthem Performer",
-      img: announcer1,
+      img: matt,
       socials: {
         youtube: "https://www.youtube.com/channel/UCobJseYd3Z4Kd9igg8PWXpQ",
         insta: "https://instagram.com/matthwatson",
