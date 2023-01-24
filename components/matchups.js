@@ -395,7 +395,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Jaelalaray",
+        name: "Jaelaray",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'2",
