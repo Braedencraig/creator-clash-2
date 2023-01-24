@@ -31,11 +31,11 @@ export default function Charity() {
     <div className="charity">
       <div className="charity-info">
         <h3>Charity Partners</h3>
-        <p>
+        {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud.
-        </p>
+        </p> */}
       </div>
       <div className="charity-logos">
         {charities.map((charity) => {
