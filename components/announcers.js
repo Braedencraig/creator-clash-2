@@ -14,14 +14,14 @@ export default function Announcers() {
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/user/penguinz0",
-        insta: "https://instagram.com/MoistCr1tikal",
+        insta: "https://www.instagram.com/bigmoistcr1tikal/?hl=en",
         twitter: "https://twitter.com/MoistCr1TiKaL",
         twitch: "https://www.twitch.tv/moistcr1tikal",
       },
     },
     {
       fullName: "JACKSEPTICEYE",
-      bio: "Pre/Post-fight Show Host",
+      bio: "Pre & Post Show Host",
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g",
@@ -32,7 +32,7 @@ export default function Announcers() {
     },
     {
       fullName: "MARKIPLIER",
-      bio: "Pre Fight Interviews",
+      bio: "Pre & Post Show Host",
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/channel/UC7_YxT-KID8kRbqZo7MyscQ",
@@ -43,7 +43,7 @@ export default function Announcers() {
     },
     {
       fullName: "ESFAND",
-      bio: "Dressing Room Interviews",
+      bio: "Pre-Fight Interviews",
       img: announcer1,
       socials: {
         youtube: "https://www.youtube.com/c/EsfandTV?app=desktop",
@@ -95,6 +95,16 @@ export default function Announcers() {
         twitter: "https://twitter.com/matthwatson",
       },
     },
+    {
+      fullName: "Akinola Verissimo",
+      bio: "In-Ring Announcer",
+      img: announcer1,
+      socials: {
+        youtube: "https://www.youtube.com/c/AkinolaGG",
+        twitter: "https://twitter.com/AkinolaGG",
+        twitch: "https://www.twitch.tv/akinolagg/about",
+      },
+    },
   ];
   return (
     <div className="matchups annoucers-wrapper">
@@ -108,27 +118,47 @@ export default function Announcers() {
               <p>{announcer.bio}</p>
               <div className="announcer-socials">
                 {announcer.socials.tiktok && (
-                  <a href={announcer.socials.tiktok}>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={announcer.socials.tiktok}
+                  >
                     <Image src={tiktok} alt={"Tik tok"} />
                   </a>
                 )}
                 {announcer.socials.youtube && (
-                  <a href={announcer.socials.youtube}>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={announcer.socials.youtube}
+                  >
                     <Image src={youtube} alt={"youtube"} />
                   </a>
                 )}
                 {announcer.socials.insta && (
-                  <a href={announcer.socials.insta}>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={announcer.socials.insta}
+                  >
                     <Image src={insta} alt={"instagram"} />
                   </a>
                 )}
                 {announcer.socials.twitter && (
-                  <a href={announcer.socials.twitter}>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={announcer.socials.twitter}
+                  >
                     <Image src={twitter} alt={"twitter"} />
                   </a>
                 )}
                 {announcer.socials.twitch && (
-                  <a href={announcer.socials.twitch}>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={announcer.socials.twitch}
+                  >
                     <Image src={twitch} alt={"twitch"} />
                   </a>
                 )}
@@ -141,16 +171,32 @@ export default function Announcers() {
           <h3>{announcers[0].fullName}</h3>
           <p>{announcers[0].bio}</p>
           <div className="announcer-socials">
-            <a href={announcers[0].socials.youtube}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.youtube}
+            >
               <Image src={youtube} alt={"Youtube"} />
             </a>
-            <a href={announcers[0].socials.insta}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.insta}
+            >
               <Image src={insta} alt={"Instagram"} />
             </a>
-            <a href={announcers[0].socials.twitter}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.twitter}
+            >
               <Image src={twitter} alt={"Twitter"} />
             </a>
-            <a href={announcers[0].socials.twitch}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.twitch}
+            >
               <Image src={twitch} alt={"Twitch"} />
             </a>
           </div>

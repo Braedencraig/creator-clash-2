@@ -7,7 +7,7 @@ import charity5 from "../public/assets/charity5.png";
 import charity6 from "../public/assets/charity6.png";
 import charity7 from "../public/assets/charity7.png";
 import charity8 from "../public/assets/charity8.png";
-import charity9 from "../public/assets/charity9.png";
+import charity9 from "../public/assets/longestday.svg";
 
 export default function Charity() {
   const charities = [
@@ -22,7 +22,10 @@ export default function Charity() {
     { link: "https://curesarcoma.org/", img: charity6 },
     { link: "https://heart.org/", img: charity7 },
     { link: "https://critrole.com/", img: charity8 },
-    { link: "https://longestday.org/", img: charity9 },
+    {
+      link: "https://act.alz.org/site/SPageServer?pagename=the_longest_day",
+      img: charity9,
+    },
   ];
   return (
     <div className="charity">

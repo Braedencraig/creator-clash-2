@@ -1153,6 +1153,11 @@ a {
   gap: 60px;
 }
 
+.charity-logos a img {
+  height: 122px;
+  width: 273px;
+}
+
 .charity-logos a {
   width: 30%;
   display: flex;
@@ -1841,6 +1846,10 @@ a {
     margin-bottom: 12px;
   }
 
+  .fight-card-mobile-images img {
+    max-height: 340px;
+  }
+
   .mobile-vs {
     top: 80px;
   }
@@ -1929,9 +1938,10 @@ a {
     font-size: 14px;
   }
 
-  .charity-logos img {
+  /* .charity-logos img,
+  .charity-logos svg {
     max-width: 200px;
-  }
+  } */
 
   .faq-bg {
     padding: 30px 0;
@@ -2042,6 +2052,6 @@ a {
 
 @media (max-width: 500px) {
   .fight-card-mobile-images img {
-    max-height: 200px;
+    max-height: 210px;
   }
 }

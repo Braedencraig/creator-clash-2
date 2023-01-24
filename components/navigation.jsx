@@ -45,7 +45,13 @@ export default function Navigation({
           <Link href="/sponsorships">Sponsorships</Link>
         </li>
         <li>
-          <a href="">Merch</a>
+          <a
+            href="https://store.thecreatorclash.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Merch
+          </a>
         </li>
       </ul>
       <div className="logo">

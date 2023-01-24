@@ -175,7 +175,7 @@ export default function Matchups() {
         socials: {
           tiktok: "https://www.tiktok.com/@chrisraygun?lang=en",
           twitch: "https://www.twitch.tv/chrisraygun",
-          youtube: "https://www.twitch.tv/chrisraygun",
+          youtube: "https://www.youtube.com/channel/UCctjGdm2NlMNzIlxz02IsXA",
           twitter: "https://twitter.com/ChrisRGun",
         },
       },
@@ -434,7 +434,7 @@ export default function Matchups() {
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'9",
-        weight: "130 LBS",
+        weight: "135 LBS",
         zodiac: "Leo",
         img: jackman,
         class: "featherweight",

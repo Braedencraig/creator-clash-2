@@ -98,7 +98,13 @@ export default function Home() {
                     <Link href="/sponsorships">Sponsorships</Link>
                   </li>
                   <li onClick={() => setOpen(false)}>
-                    <a href="">Merch</a>
+                    <a
+                      href="https://store.thecreatorclash.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Merch
+                    </a>
                   </li>
                 </ul>
                 <div className="navigation-tickets-mobile">
