@@ -874,19 +874,19 @@ export default function Matchups() {
                       <p className="blue">{matchup.fighter2.record}</p>
                     </div> */}
                     <div className="table-row">
-                      <p className="red">{matchup.fighter1.height}</p>
+                      <p className="blue">{matchup.fighter1.height}</p>
                       <p>Height</p>
-                      <p className="blue">{matchup.fighter2.height}</p>
+                      <p className="red">{matchup.fighter2.height}</p>
                     </div>
                     <div className="table-row">
-                      <p className="red">{matchup.fighter1.weight}</p>
+                      <p className="blue">{matchup.fighter1.weight}</p>
                       <p>Fight Weight</p>
-                      <p className="blue">{matchup.fighter2.weight}</p>
+                      <p className="red">{matchup.fighter2.weight}</p>
                     </div>
                     <div className="table-row no-border">
-                      <p className="red">{matchup.fighter1.zodiac}</p>
+                      <p className="blue">{matchup.fighter1.zodiac}</p>
                       <p>Zodiac</p>
-                      <p className="blue">{matchup.fighter2.zodiac}</p>
+                      <p className="red">{matchup.fighter2.zodiac}</p>
                     </div>
                   </div>
                 </div>
@@ -1024,19 +1024,19 @@ export default function Matchups() {
                       <p className="blue">{matchup.fighter2.record}</p>
                     </div> */}
                     <div className="table-row">
-                      <p className="red">{matchup.fighter1.height}</p>
+                      <p className="blue">{matchup.fighter1.height}</p>
                       <p>Height</p>
-                      <p className="blue">{matchup.fighter2.height}</p>
+                      <p className="red">{matchup.fighter2.height}</p>
                     </div>
                     <div className="table-row">
-                      <p className="red">{matchup.fighter1.weight}</p>
+                      <p className="blue">{matchup.fighter1.weight}</p>
                       <p>Fight Weight</p>
-                      <p className="blue">{matchup.fighter2.weight}</p>
+                      <p className="red">{matchup.fighter2.weight}</p>
                     </div>
                     <div className="table-row no-border">
-                      <p className="red">{matchup.fighter1.zodiac}</p>
+                      <p className="blue">{matchup.fighter1.zodiac}</p>
                       <p>Zodiac</p>
-                      <p className="blue">{matchup.fighter2.zodiac}</p>
+                      <p className="red">{matchup.fighter2.zodiac}</p>
                     </div>
                   </div>
                 </div>
