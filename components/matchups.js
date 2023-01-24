@@ -198,7 +198,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Marisha Ray Huber",
+        name: "Marisha Ray",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'6",
@@ -411,7 +411,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Abelina Sabrina Rios",
+        name: "Abelina Sabrina",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'2",
