@@ -34,7 +34,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="Creator Clash" />
@@ -44,7 +43,6 @@ export default function Home() {
         />
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Expires" content="0" />
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
         <meta name="description" content="Creator Clash" />
         <meta property="og:title" content="Creator Clash" />
         <meta property="og:description" content="Creator Clash" />

@@ -119,7 +119,7 @@ export default function Announcers() {
       <div className="announcers">
         {announcers.map((announcer) => {
           return (
-            <div className="announcer" key={announcer.fullname}>
+            <div className="announcer" key={announcer.fullName}>
               <Image src={announcer.img} alt={announcer.fullName} />
               <h3>{announcer.fullName}</h3>
               <p>{announcer.bio}</p>

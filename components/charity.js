@@ -41,7 +41,7 @@ export default function Charity() {
         {charities.map((charity) => {
           return (
             <a
-              key={charity.url}
+              key={charity.link}
               href={charity.link}
               target="_blank"
               rel="noreferrer"
