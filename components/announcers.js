@@ -5,6 +5,13 @@ import insta from "../public/assets/insta.png";
 import youtube from "../public/assets/youtube.png";
 import twitter from "../public/assets/twitter.png";
 import twitch from "../public/assets/twitch.png";
+import wade from "../public/assets/wade-ann.jpg";
+import esfand from "../public/assets/esfand-ann.jpg";
+import jack from "../public/assets/jack-ann.jpg";
+import mark from "../public/assets/mark-ann.jpg";
+import tony from "../public/assets/tony-ann.jpg";
+import aki from "../public/assets/aki-ann.jpg";
+import amouranth from "../public/assets/amouranth-ann.jpg";
 
 export default function Announcers() {
   const announcers = [
@@ -22,7 +29,7 @@ export default function Announcers() {
     {
       fullName: "JACKSEPTICEYE",
       bio: "Pre & Post Show Host",
-      img: announcer1,
+      img: jack,
       socials: {
         youtube: "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g",
         insta: "https://instagram.com/jacksepticeye",
@@ -33,7 +40,7 @@ export default function Announcers() {
     {
       fullName: "MARKIPLIER",
       bio: "Pre & Post Show Host",
-      img: announcer1,
+      img: mark,
       socials: {
         youtube: "https://www.youtube.com/channel/UC7_YxT-KID8kRbqZo7MyscQ",
         tiktok: "https://www.tiktok.com/@markiplier",
@@ -44,7 +51,7 @@ export default function Announcers() {
     {
       fullName: "ESFAND",
       bio: "Pre-Fight Interviews",
-      img: announcer1,
+      img: esfand,
       socials: {
         youtube: "https://www.youtube.com/c/EsfandTV?app=desktop",
         insta: "https://www.instagram.com/esfandtv",
@@ -56,7 +63,7 @@ export default function Announcers() {
     {
       fullName: "Tony Jefferies",
       bio: "Commentary",
-      img: announcer1,
+      img: tony,
       socials: {
         youtube: "https://www.youtube.com/c/TonyJeffries1/videos",
         insta: "https://instagram.com/Tony_Jeffries",
@@ -67,7 +74,7 @@ export default function Announcers() {
     {
       fullName: "Wade Plemons",
       bio: "Commentary",
-      img: announcer1,
+      img: wade,
       socials: {
         youtube: "https://www.youtube.com/c/TheWADEConcept",
         insta: "https://www.instagram.com/wadeplem/",
@@ -77,7 +84,7 @@ export default function Announcers() {
     {
       fullName: "Amouranth",
       bio: "Pre Fight Interviews",
-      img: announcer1,
+      img: amouranth,
       socials: {
         insta: "https://www.instagram.com/kaitgonewild/",
         twitter:
@@ -98,7 +105,7 @@ export default function Announcers() {
     {
       fullName: "Akinola Verissimo",
       bio: "In-Ring Announcer",
-      img: announcer1,
+      img: aki,
       socials: {
         youtube: "https://www.youtube.com/c/AkinolaGG",
         twitter: "https://twitter.com/AkinolaGG",

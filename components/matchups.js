@@ -63,7 +63,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "idubbbz",
+        name: "IDUBBBZ",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'1",
@@ -81,7 +81,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "John Hennigan",
+        name: "John Randall Hennigan",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'0",
@@ -96,7 +96,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Harley Morenstein (Epic Meal Time)",
+        name: "Harley Morenstein",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'6",
@@ -115,7 +115,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Ididathing",
+        name: "IDIDATHING",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'3",
@@ -183,7 +183,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Yodeling Haley",
+        name: "Haley Sharpe",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "5'8",
@@ -198,7 +198,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Marisha Ray Huber (Critical Role)",
+        name: "Marisha Ray Huber",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'6",
@@ -252,7 +252,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Arin Hanson (Game Grumps)",
+        name: "Arin Hanson",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'2",
@@ -288,7 +288,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "RIPMika",
+        name: "Mika",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'9",
@@ -359,7 +359,7 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "Dad",
+        name: "Dad (Nathan Barnatt)",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
         height: "6'0",
@@ -376,7 +376,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "AB (H3 Podcast)",
+        name: "AB (Ab Ayad)",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "6'0",
@@ -411,7 +411,7 @@ export default function Matchups() {
         },
       },
       fighter2: {
-        name: "Abelina Sabrina",
+        name: "Abelina Sabrina Rios",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
         height: "5'2",
