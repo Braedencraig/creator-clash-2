@@ -14,6 +14,8 @@ import aki from "../public/assets/aki-ann.jpg";
 import amouranth from "../public/assets/amouranth-ann.jpg";
 import matt from "../public//assets/matt-ann.jpg";
 import moist from "../public//assets/moist-ann.jpg";
+import chill from "../public/assets/chill-ann.png";
+import supermega from "../public/assets/supermega-ann.png";
 
 export default function Announcers() {
   const announcers = [
@@ -84,6 +86,16 @@ export default function Announcers() {
       },
     },
     {
+      fullName: "Chills",
+      bio: "Post Fight Interviews",
+      img: chill,
+      socials: {
+        youtube: "https://www.youtube.com/@chills",
+        insta: "https://www.instagram.com/dylan_is_chillin_yt/?hl=en",
+        twitter: "https://twitter.com/yt_chills?lang=en",
+      },
+    },
+    {
       fullName: "Amouranth",
       bio: "Pre Fight Interviews",
       img: amouranth,
@@ -95,13 +107,14 @@ export default function Announcers() {
       },
     },
     {
-      fullName: "Matt Watson",
+      fullName: "SuperMega",
       bio: "National Anthem Performer",
-      img: matt,
+      img: supermega,
       socials: {
-        youtube: "https://www.youtube.com/channel/UCobJseYd3Z4Kd9igg8PWXpQ",
-        insta: "https://instagram.com/matthwatson",
-        twitter: "https://twitter.com/matthwatson",
+        youtube: "https://www.youtube.com/channel/UCPPc2PdtA7gCMbjYp_i_TKA",
+        insta: "https://www.instagram.com/supermegashow/?hl=en",
+        twitter:
+          "https://twitter.com/SuperMegaShow?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
       },
     },
     {
@@ -175,6 +188,41 @@ export default function Announcers() {
             </div>
           );
         })}
+        <div className="announcer opacity-none">
+          <Image src={announcers[0].img} alt={announcers[0].fullName} />
+          <h3>{announcers[0].fullName}</h3>
+          <p>{announcers[0].bio}</p>
+          <div className="announcer-socials">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.youtube}
+            >
+              <Image src={youtube} alt={"Youtube"} />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.insta}
+            >
+              <Image src={insta} alt={"Instagram"} />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.twitter}
+            >
+              <Image src={twitter} alt={"Twitter"} />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={announcers[0].socials.twitch}
+            >
+              <Image src={twitch} alt={"Twitch"} />
+            </a>
+          </div>
+        </div>
         <div className="announcer opacity-none">
           <Image src={announcers[0].img} alt={announcers[0].fullName} />
           <h3>{announcers[0].fullName}</h3>
