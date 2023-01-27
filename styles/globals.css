@@ -293,6 +293,13 @@ body {
 
 .signup label {
   margin-bottom: 10px;
+  margin-top: 9px;
+}
+
+.ppv {
+  margin-top: -80px;
+  padding-bottom: 60px !important;
+  text-align: center;
 }
 
 .signup h3 {

@@ -9,6 +9,7 @@ import Dropdown from "../components/dropdown";
 import Matchups from "../components/matchups";
 import Announcers from "../components/announcers";
 import Charity from "../components/charity";
+import Prices from "../components/prices";
 import Footer from "../components/footer";
 import chevron from "../public/assets/chevron.png";
 import tiktok from "../public/assets/tiktok.png";
@@ -219,6 +220,7 @@ export default function Home() {
       </div>
       <Matchups />
       <Announcers />
+      <Prices />
       <div id="charity">
         <Charity />
       </div>
