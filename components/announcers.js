@@ -18,6 +18,7 @@ import chill from "../public/assets/chill-ann.png";
 import supermega from "../public/assets/supermega-ann.png";
 
 export default function Announcers() {
+  console.log("");
   const announcers = [
     {
       fullName: "MoistCr1tikal",
