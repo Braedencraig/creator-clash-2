@@ -8,6 +8,7 @@ import charity6 from "../public/assets/charity6.png";
 import charity7 from "../public/assets/charity7.png";
 import charity8 from "../public/assets/charity8.png";
 import charity9 from "../public/assets/longestday.svg";
+import charity10 from "../public/assets/parasport.png";
 
 export default function Charity() {
   const charities = [
@@ -25,6 +26,10 @@ export default function Charity() {
     {
       link: "https://act.alz.org/site/SPageServer?pagename=the_longest_day",
       img: charity9,
+    },
+    {
+      link: "http://www.parasportsab.com/",
+      img: charity10,
     },
   ];
   return (
