@@ -28,7 +28,7 @@ export default function Charity() {
       img: charity9,
     },
     {
-      link: "http://www.parasportsab.com/",
+      link: "https://www.parasportsab.com/",
       img: charity10,
     },
   ];
