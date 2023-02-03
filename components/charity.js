@@ -1,5 +1,5 @@
 import Image from "next/image";
-import charity1 from "../public/assets/charity1.png";
+import charity1 from "../public/assets/charity1.webp";
 import charity2 from "../public/assets/charity2.png";
 import charity3 from "../public/assets/charity3.png";
 import charity4 from "../public/assets/charity4.png";
