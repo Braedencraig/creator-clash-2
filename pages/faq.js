@@ -193,7 +193,9 @@ export default function Home() {
                       <button
                         onClick={() => {
                           setLaunchModal(false);
-                          window.open("https://www.moment.co/creatorclash");
+                          window.open(
+                            "https://www.moment.co/creatorclash/creatorclash-creator-clash2"
+                          );
                         }}
                       >
                         <span>

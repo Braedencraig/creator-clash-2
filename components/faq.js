@@ -60,7 +60,7 @@ export default function Faq() {
             Can’t make it to Tampa? Purchase pay-per-view tickets for access to
             the livestream hosted by Moment,{" "}
             <a
-              href="https://www.moment.co/creatorclash"
+              href="https://www.moment.co/creatorclash/creatorclash-creator-clash2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -73,7 +73,7 @@ export default function Faq() {
           <p>
             Pay-per-view tickets may be purchased{" "}
             <a
-              href="https://www.moment.co/creatorclash"
+              href="https://www.moment.co/creatorclash/creatorclash-creator-clash2"
               target="_blank"
               rel="noopener noreferrer"
             >
