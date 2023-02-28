@@ -37,7 +37,7 @@ export default function Footer() {
         )}
         {!success && (
           <>
-            <h3>Media Submissions</h3>
+            <h3>Get In Touch</h3>
             <form onSubmit={handleSubmit(onSubmit)} name="google-sheet">
               <div className="flex-form">
                 <div className="contact-info">
