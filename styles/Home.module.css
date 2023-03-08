@@ -39,14 +39,14 @@
   align-items: center;
   padding: 3rem;
   /* min-height: 100vh; */
-  height: 100vh;
+  height: 155vh;
   background: url("/assets/sponsorshipsbg.png");
   background-size: cover;
   background-position: inherit;
   background-repeat: no-repeat;
   position: relative;
-  max-height: 900px;
-  min-height: 900px;
+  /* max-height: 900px;
+  min-height: 900px; */
 }
 
 .overlay {
@@ -128,6 +128,8 @@
     min-height: 100vh;
     max-height: 100vh;
     background-position: center;
+    min-height: 175vh;
+    max-height: 175vh;
   }
 
   .center ul {
