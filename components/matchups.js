@@ -6,8 +6,10 @@ import alex from "../public/assets/alex-min.jpg";
 import idubz from "../public/assets/idubz-min.jpg";
 import john from "../public/assets/john-min.jpg";
 import harley from "../public/assets/harley-min.jpg";
-import ididathing from "../public/assets/ididathing-min.jpg";
-import fitz from "../public/assets/fitz-min.jpg";
+// import ididathing from "../public/assets/ididathing-min.jpg";
+// import fitz from "../public/assets/fitz-min.jpg";
+import andrea from "../public/assets/andrea.png";
+import michelle from "../public/assets/michelle.png";
 import tyler from "../public/assets/tyler-min.jpg";
 import chris from "../public/assets/chris-min.jpg";
 import hayley from "../public/assets/hayley-min.jpg";
@@ -115,37 +117,40 @@ export default function Matchups() {
     },
     {
       fighter1: {
-        name: "IDIDATHING",
+        name: "Michelle Khare",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
-        height: "6'4",
-        weight: "200+ LBS",
+        height: "5'3",
+        weight: "129 LBS",
         zodiac: "Leo",
-        img: ididathing,
-        class: "heavyweight",
+        img: michelle,
+        class: "flyweight",
         socials: {
-          youtube: "https://www.youtube.com/c/Ididathing",
-          twitter: "https://twitter.com/ididathing1",
+          insta: "https://www.instagram.com/michellekhare/?hl=en",
+          youtube: "https://www.youtube.com/@MichelleKhare",
+          twitter:
+            "https://twitter.com/MichelleKhare?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
       },
       fighter2: {
-        name: "Fitz",
+        name: "Andrea Botez",
         bio: "YouTuber, Handyman, Communist",
         record: "1 - 0",
-        height: "6'6",
-        weight: "200+ LBS",
-        zodiac: "Virgo",
-        img: fitz,
-        class: "heavyweight",
+        height: "5'6",
+        weight: "129 LBS",
+        zodiac: "Aries",
+        img: andrea,
+        class: "flyweight",
         socials: {
-          tiktok: "https://www.tiktok.com/@fitz?lang=en",
-          insta: "https://www.instagram.com/goodguyfitz/",
-          youtube: "https://www.youtube.com/c/Fitz",
-          twitter: "https://twitter.com/GoodGuyFitz",
+          insta: "https://www.instagram.com/itsandreabotez/?hl=en",
+          youtube: "https://www.youtube.com/channel/UCAn8NrZ-J4CRfwodajqFYoQ",
+          twitter:
+            "https://twitter.com/itsandreabotez?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
       },
-      class: ["comedy", "gaming"],
+      class: ["podcasting"],
     },
+
     {
       fighter1: {
         name: "Froggy Fresh",
