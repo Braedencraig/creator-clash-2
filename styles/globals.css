@@ -902,7 +902,8 @@ a {
   /* line-height: 30px; */
   line-height: 24px;
   color: #2f80ed;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 26px;
   margin-bottom: 8px;
   /* line-height: 46px; */
   width: 40%;
@@ -927,7 +928,8 @@ a {
   /* line-height: 30px; */
   line-height: 24px;
   color: #f22525;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 26px;
   margin-bottom: 8px;
   text-align: right;
 }
