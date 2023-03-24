@@ -120,6 +120,9 @@ export default function Home() {
                     <Link href="/#charity">Charity</Link>
                   </li>
                   <li onClick={() => setOpen(false)}>
+                    <Link href="/media-submissions">Media Submissions</Link>
+                  </li>
+                  <li onClick={() => setOpen(false)}>
                     <Link href="/faq">FAQ</Link>
                   </li>
                   <li onClick={() => setOpen(false)}>
