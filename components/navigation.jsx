@@ -39,7 +39,7 @@ export default function Navigation({
           <Link href="/#charity">Charity</Link>
         </li>
         <li>
-          <Link href="/media-submissions">Media Submissions</Link>
+          <Link href="/media-credentials">Media Credentials</Link>
         </li>
         <li>
           <Link href="/faq">FAQ</Link>

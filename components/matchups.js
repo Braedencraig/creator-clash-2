@@ -10,7 +10,7 @@ import harley from "../public/assets/harley-min.jpg";
 // import fitz from "../public/assets/fitz-min.jpg";
 import andrea from "../public/assets/andrea.png";
 import michelle from "../public/assets/michelle.png";
-import tyler from "../public/assets/tyler-min.jpg";
+import tyler from "../public/assets/question.png";
 import chris from "../public/assets/chris-min.jpg";
 import hayley from "../public/assets/hayley-min.jpg";
 import marisha from "../public/assets/marisha-min.jpg";
@@ -153,19 +153,19 @@ export default function Matchups() {
 
     {
       fighter1: {
-        name: "Froggy Fresh",
+        name: "TBA",
         bio: "YouTuber, Member of Misfits, Gamer",
-        record: "1 - 0",
-        height: "5'2",
-        weight: "130 LBS",
-        zodiac: "Capricorn",
+        record: "-",
+        height: "-",
+        weight: "-",
+        zodiac: "-",
         img: tyler,
         class: "featherweight",
         socials: {
-          tiktok: "https://www.tiktok.com/@tylerscassidy?lang=en",
-          insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
-          youtube: "https://www.youtube.com/channel/UC77bLHly_nVZJzL-nXSO2XQ",
-          twitter: "https://twitter.com/iAmFroggyFresh",
+          // tiktok: "https://www.tiktok.com/@tylerscassidy?lang=en",
+          // insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
+          // youtube: "https://www.youtube.com/channel/UC77bLHly_nVZJzL-nXSO2XQ",
+          // twitter: "https://twitter.com/iAmFroggyFresh",
         },
       },
       fighter2: {
