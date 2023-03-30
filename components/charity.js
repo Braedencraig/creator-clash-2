@@ -10,6 +10,7 @@ import charity8 from "../public/assets/charity8.png";
 import charity9 from "../public/assets/longestday.svg";
 import charity10 from "../public/assets/parasport.png";
 import charity11 from "../public/assets/humane.png";
+import charity12 from "../public/assets/merrimack.jpeg";
 
 export default function Charity() {
   const charities = [
@@ -35,6 +36,10 @@ export default function Charity() {
     {
       link: "https://www.humanesociety.org/",
       img: charity11,
+    },
+    {
+      link: "https://merrimackhall.com/",
+      img: charity12,
     },
   ];
   return (

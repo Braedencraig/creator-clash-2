@@ -1182,7 +1182,8 @@ a {
 }
 
 .charity-logos a img {
-  height: 122px;
+  height: auto;
+  /* height: 122px; */
   width: 273px;
 }
 

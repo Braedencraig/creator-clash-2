@@ -6,11 +6,10 @@ import alex from "../public/assets/alex-min.jpg";
 import idubz from "../public/assets/idubz-min.jpg";
 import john from "../public/assets/john-min.jpg";
 import harley from "../public/assets/harley-min.jpg";
-// import ididathing from "../public/assets/ididathing-min.jpg";
-// import fitz from "../public/assets/fitz-min.jpg";
 import andrea from "../public/assets/andrea.png";
 import michelle from "../public/assets/michelle.png";
-import tyler from "../public/assets/question.png";
+// import william from "../public/assets/williamhaynes.png";
+import question from "../public/assets/question.png";
 import chris from "../public/assets/chris-min.jpg";
 import hayley from "../public/assets/hayley-min.jpg";
 import marisha from "../public/assets/marisha-min.jpg";
@@ -155,17 +154,18 @@ export default function Matchups() {
       fighter1: {
         name: "TBA",
         bio: "YouTuber, Member of Misfits, Gamer",
-        record: "-",
+        record: "1 - 0",
         height: "-",
         weight: "-",
         zodiac: "-",
-        img: tyler,
+        img: question,
         class: "featherweight",
         socials: {
-          // tiktok: "https://www.tiktok.com/@tylerscassidy?lang=en",
-          // insta: "https://www.instagram.com/iamfroggyfresh/?hl=en",
-          // youtube: "https://www.youtube.com/channel/UC77bLHly_nVZJzL-nXSO2XQ",
-          // twitter: "https://twitter.com/iAmFroggyFresh",
+          // tiktok: "",
+          // insta: "",
+          // youtube: "",
+          // twitter:
+          //   "",
         },
       },
       fighter2: {
