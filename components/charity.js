@@ -19,7 +19,7 @@ export default function Charity() {
       img: charity1,
     },
     { link: "https://ablegamers.org/", img: charity2 },
-    { link: "https://kidneyfund.org/", img: charity3 },
+    { link: "https://donate.tiltify.com/american-kidney-fund", img: charity3 },
     { link: "https://nicklauschildrens.org/", img: charity4 },
     { link: "https://kidscancersf.org/", img: charity5 },
     { link: "https://curesarcoma.org/", img: charity6 },

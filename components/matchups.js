@@ -8,8 +8,8 @@ import john from "../public/assets/john-min.jpg";
 import harley from "../public/assets/harley-min.jpg";
 import andrea from "../public/assets/andrea.png";
 import michelle from "../public/assets/michelle.png";
-// import william from "../public/assets/williamhaynes.png";
-import question from "../public/assets/question.png";
+import william from "../public/assets/williamhaynes.png";
+// import question from "../public/assets/question.png";
 import chris from "../public/assets/chris-min.jpg";
 import hayley from "../public/assets/hayley-min.jpg";
 import marisha from "../public/assets/marisha-min.jpg";
@@ -152,20 +152,20 @@ export default function Matchups() {
 
     {
       fighter1: {
-        name: "TBA",
+        name: "William Haynes",
         bio: "YouTuber, Member of Misfits, Gamer",
         record: "1 - 0",
-        height: "-",
-        weight: "-",
-        zodiac: "-",
-        img: question,
+        height: "5'10",
+        weight: "145 LBS",
+        zodiac: "Libra",
+        img: william,
         class: "featherweight",
         socials: {
-          // tiktok: "",
-          // insta: "",
-          // youtube: "",
-          // twitter:
-          //   "",
+          tiktok: "https://www.tiktok.com/@mrwilliamhaynes",
+          insta: "https://www.instagram.com/williamhaynes/?hl=en",
+          youtube: "https://www.youtube.com/user/williamhaynestv",
+          twitter:
+            "https://twitter.com/MrWilliamHaynes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         },
       },
       fighter2: {
