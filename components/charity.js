@@ -11,22 +11,36 @@ import charity9 from "../public/assets/longestday.svg";
 import charity10 from "../public/assets/parasport.png";
 import charity11 from "../public/assets/humane.png";
 import charity12 from "../public/assets/merrimack.jpeg";
+import charity13 from "../public/assets/ms.png";
+import charity14 from "../public/assets/horse.png";
 
 export default function Charity() {
   const charities = [
     {
-      link: "https://donate.nami.org/give/197406/#!/donation/checkout?utm_source=globalNav&utm_medium=website&utm_campaign=DonationTracking&c_src=P2PRGT23",
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-nami",
       img: charity1,
     },
-    { link: "https://ablegamers.org/", img: charity2 },
-    { link: "https://donate.tiltify.com/american-kidney-fund", img: charity3 },
+    {
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-ablegamers",
+      img: charity2,
+    },
+    {
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-american-kidney-fund",
+      img: charity3,
+    },
     { link: "https://nicklauschildrens.org/", img: charity4 },
     { link: "https://kidscancersf.org/", img: charity5 },
     { link: "https://curesarcoma.org/", img: charity6 },
-    { link: "https://heart.org/", img: charity7 },
-    { link: "https://critrole.com/", img: charity8 },
     {
-      link: "https://act.alz.org/site/SPageServer?pagename=the_longest_day",
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-american-heart-association",
+      img: charity7,
+    },
+    {
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-critical-role-foundation",
+      img: charity8,
+    },
+    {
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-alzheimers-association",
       img: charity9,
     },
     {
@@ -34,12 +48,20 @@ export default function Charity() {
       img: charity10,
     },
     {
-      link: "https://www.humanesociety.org/",
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-humane-society-international",
       img: charity11,
     },
     {
       link: "https://merrimackhall.com/",
       img: charity12,
+    },
+    {
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-ms-society",
+      img: charity13,
+    },
+    {
+      link: "https://tiltify.com/@realgoodtouring/creator-clash-x-healing-horse-therapy-center",
+      img: charity14,
     },
   ];
   return (
