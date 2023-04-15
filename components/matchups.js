@@ -56,6 +56,7 @@ export default function Matchups() {
         zodiac: "Aries",
         img: alex,
         class: "light heavyweight",
+        vote: "https://ooohtv.page.link/fT74",
         socials: {
           tiktok: "https://www.tiktok.com/@alexwassabi?lang=en",
           insta: "https://www.instagram.com/alexwassabi/?hl=en",
@@ -72,6 +73,7 @@ export default function Matchups() {
         zodiac: "Libra",
         img: idubz,
         class: "light heavyweight",
+        vote: "https://ooohtv.page.link/fT74",
         socials: {
           insta: "https://www.instagram.com/idubbbz/",
           youtube: "https://www.youtube.com/c/idubbbztv",
@@ -90,6 +92,7 @@ export default function Matchups() {
         zodiac: "Libra",
         img: john,
         class: "super heavyweight",
+        vote: "https://ooohtv.page.link/PZW8",
         socials: {
           insta: "https://instagram.com/johnhennigan",
           twitter:
@@ -105,6 +108,7 @@ export default function Matchups() {
         zodiac: "Virgo",
         img: harley,
         class: "super heavyweight",
+        vote: "https://ooohtv.page.link/PZW8",
         socials: {
           tiktok: "https://www.tiktok.com/@harleyplays",
           insta: "https://instagram.com/harleyplays",
@@ -124,6 +128,7 @@ export default function Matchups() {
         zodiac: "Leo",
         img: michelle,
         class: "flyweight",
+        vote: "https://ooohtv.page.link/5nij",
         socials: {
           insta: "https://www.instagram.com/michellekhare/?hl=en",
           youtube: "https://www.youtube.com/@MichelleKhare",
@@ -140,6 +145,7 @@ export default function Matchups() {
         zodiac: "Aries",
         img: andrea,
         class: "flyweight",
+        vote: "https://ooohtv.page.link/5nij",
         socials: {
           insta: "https://www.instagram.com/itsandreabotez/?hl=en",
           youtube: "https://www.youtube.com/channel/UCAn8NrZ-J4CRfwodajqFYoQ",
@@ -160,6 +166,7 @@ export default function Matchups() {
         zodiac: "Libra",
         img: william,
         class: "featherweight",
+        vote: "https://ooohtv.page.link/DTwr",
         socials: {
           tiktok: "https://www.tiktok.com/@mrwilliamhaynes",
           insta: "https://www.instagram.com/williamhaynes/?hl=en",
@@ -177,6 +184,7 @@ export default function Matchups() {
         zodiac: "Sagittarius",
         img: chris,
         class: "featherweight",
+        vote: "https://ooohtv.page.link/DTwr",
         socials: {
           tiktok: "https://www.tiktok.com/@chrisraygun?lang=en",
           twitch: "https://www.twitch.tv/chrisraygun",
@@ -196,6 +204,7 @@ export default function Matchups() {
         zodiac: "Libra",
         img: hayley,
         class: "lightweight",
+        vote: "https://ooohtv.page.link/eeFf",
         socials: {
           tiktok: "https://www.tiktok.com/@yodelinghaley?lang=en",
           insta: "https://www.instagram.com/yodelinghaley/?hl=en",
@@ -211,6 +220,7 @@ export default function Matchups() {
         zodiac: "Taurus",
         img: marisha,
         class: "lightweight",
+        vote: "https://ooohtv.page.link/eeFf",
         socials: {
           insta: "https://www.instagram.com/marisha_ray/?hl=en",
           youtube: "https://www.youtube.com/@criticalrole",
@@ -230,6 +240,7 @@ export default function Matchups() {
         zodiac: "Gemini",
         img: myth,
         class: "light heavyweight",
+        vote: "https://ooohtv.page.link/aXK4",
         socials: {
           insta: "https://www.instagram.com/mythig_/?hl=en",
           twitch: "https://www.twitch.tv/myth",
@@ -246,6 +257,7 @@ export default function Matchups() {
         zodiac: "Cancer",
         img: hundar,
         class: "light heavyweight",
+        vote: "https://ooohtv.page.link/aXK4",
         socials: {
           insta: "https://www.instagram.com/breadhungry/?hl=en",
           twitch: "https://www.twitch.tv/muscleparty",
@@ -265,6 +277,7 @@ export default function Matchups() {
         zodiac: "Capricorn",
         img: arin,
         class: "heavyweight",
+        vote: "https://ooohtv.page.link/9gKD",
         socials: {
           tiktok: "https://www.tiktok.com/@gamegrumps",
           insta: "https://www.instagram.com/gamegrumps/",
@@ -282,6 +295,7 @@ export default function Matchups() {
         zodiac: "Taurus",
         img: jarvis,
         class: "heavyweight",
+        vote: "https://ooohtv.page.link/9gKD",
         socials: {
           tiktok: "https://www.tiktok.com/@jarv.s",
           insta: "https://www.instagram.com/jarvis/",
@@ -301,6 +315,7 @@ export default function Matchups() {
         zodiac: "Virgo",
         img: mika,
         class: "middleweight",
+        vote: "https://ooohtv.page.link/MTmX",
         socials: {
           tiktok: "https://www.tiktok.com/@ripmika?lang=en",
           insta: "https://www.instagram.com/ripmika/",
@@ -318,6 +333,7 @@ export default function Matchups() {
         zodiac: "Virgo",
         img: alanah,
         class: "middleweight",
+        vote: "https://ooohtv.page.link/MTmX",
         socials: {
           tiktok: "https://www.tiktok.com/@charalanahzard?lang=en",
           insta: "https://www.instagram.com/charalanahzard/",
@@ -337,6 +353,7 @@ export default function Matchups() {
         zodiac: "Aquarius",
         img: leonhart,
         class: "middleweight",
+        vote: "https://ooohtv.page.link/iybK",
         socials: {
           insta: "https://www.instagram.com/leonhart/",
           twitch: "https://www.twitch.tv/leonhartplays",
@@ -353,6 +370,7 @@ export default function Matchups() {
         zodiac: "Scorpio",
         img: crank,
         class: "middleweight",
+        vote: "https://ooohtv.page.link/iybK",
         socials: {
           tiktok: "https://www.tiktok.com/@crankgameplays?lang=en",
           insta: "https://www.instagram.com/crankgameplays/?hl=en",
@@ -372,6 +390,7 @@ export default function Matchups() {
         zodiac: "Aquarius",
         img: dad,
         class: "middleweight",
+        vote: "https://ooohtv.page.link/ZzL9",
         socials: {
           tiktok: "https://www.tiktok.com/@nathanbarnatt",
           insta: "https://www.instagram.com/NathanBarnatt/",
@@ -389,6 +408,7 @@ export default function Matchups() {
         zodiac: "Pisces",
         img: ab,
         class: "middleweight",
+        vote: "https://ooohtv.page.link/ZzL9",
         socials: {
           tiktok: "https://www.tiktok.com/@_starkilla",
           insta: "https://www.instagram.com/_starkilla/?hl=en",
@@ -408,6 +428,7 @@ export default function Matchups() {
         zodiac: "Aquarius",
         img: jaelaray,
         class: "flyweight",
+        vote: "https://ooohtv.page.link/Rrsa",
         socials: {
           tiktok: "https://www.tiktok.com/@jaelaray",
           insta: "https://www.instagram.com/jaelaray/?hl=en",
@@ -424,6 +445,7 @@ export default function Matchups() {
         zodiac: "Pisces",
         img: sabrina,
         class: "flyweight",
+        vote: "https://ooohtv.page.link/Rrsa",
         socials: {
           tiktok: "https://www.tiktok.com/@abelinasabrina",
           insta: "https://www.instagram.com/abelinasabrina/",
@@ -443,6 +465,7 @@ export default function Matchups() {
         zodiac: "Leo",
         img: jackman,
         class: "featherweight",
+        vote: "https://ooohtv.page.link/2HBn",
         socials: {
           tiktok: "https://www.tiktok.com/@jackmanifoldtv?lang=en",
           insta: "https://www.instagram.com/JackManifoldTV/",
@@ -459,6 +482,7 @@ export default function Matchups() {
         zodiac: "Scorpio",
         img: dakota,
         class: "featherweight",
+        vote: "https://ooohtv.page.link/2HBn",
         socials: {
           tiktok: "https://www.tiktok.com/@dakotaolave?lang=en",
           insta: "https://www.instagram.com/dakotaolave/?hl=en",
@@ -676,6 +700,14 @@ export default function Matchups() {
                         <p className="blue">
                           Zodiac: {matchup.fighter1.zodiac}
                         </p>
+                        <a
+                          className="blue"
+                          href={matchup.fighter1.vote}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Vote Now
+                        </a>
                       </div>
                     </Accordion>
                     <div className="fight-card-matchup-socials">
@@ -745,6 +777,14 @@ export default function Matchups() {
                           Fight Weight: {matchup.fighter2.weight}
                         </p>
                         <p className="red">Zodiac: {matchup.fighter2.zodiac}</p>
+                        <a
+                          className="red"
+                          href={matchup.fighter1.vote}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Vote Now
+                        </a>
                       </div>
                     </Accordion>
                     <div className="fight-card-matchup-socials">
@@ -1042,6 +1082,28 @@ export default function Matchups() {
                       <p className="blue">{matchup.fighter1.zodiac}</p>
                       <p>Zodiac</p>
                       <p className="red">{matchup.fighter2.zodiac}</p>
+                    </div>
+                    <div
+                      style={{ display: "flex", alignItems: "center" }}
+                      className="table-row no-border"
+                    >
+                      <a
+                        className="blue"
+                        href={matchup.fighter1.vote}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Vote
+                      </a>
+                      <p>Vote Now</p>
+                      <a
+                        className="red"
+                        href={matchup.fighter1.vote}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Vote
+                      </a>
                     </div>
                   </div>
                 </div>
