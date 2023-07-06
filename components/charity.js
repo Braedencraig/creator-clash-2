@@ -3,6 +3,7 @@ import charity1 from "../public/assets/charity1.webp";
 import charity2 from "../public/assets/charity2.png";
 import charity3 from "../public/assets/charity3.png";
 import charity4 from "../public/assets/charity4.png";
+import charity42 from "../public/assets/charity42.png";
 import charity5 from "../public/assets/charity5.png";
 import charity6 from "../public/assets/charity6.png";
 import charity7 from "../public/assets/charity7.png";
@@ -28,7 +29,7 @@ export default function Charity() {
       link: "https://tiltify.com/@realgoodtouring/creator-clash-x-american-kidney-fund",
       img: charity3,
     },
-    { link: "https://nicklauschildrens.org/", img: charity4 },
+    { link: "https://nicklauschildrens.org/", img: charity42 },
     { link: "https://kidscancersf.org/", img: charity5 },
     { link: "https://curesarcoma.org/", img: charity6 },
     {
